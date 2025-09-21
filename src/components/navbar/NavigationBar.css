@@ -1,0 +1,38 @@
+.custom-navbar {
+  background-color: #141414 !important;
+  padding: 1px !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  margin-right: 15px;
+  font-size: 15px !important;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  align-content: center;
+}
+
+.nav-link:hover {
+  color: #e50914 !important;
+}
+
+.brand-text:hover{
+  color: #e50914 !important;
+  cursor: default;
+}
+
+.logo-style {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand icon {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand .icon:hover {
+  transform: scale(1.3);
+
+}
