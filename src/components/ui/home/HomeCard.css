@@ -22,9 +22,7 @@ body {
 .hero-title {
     position: absolute;
     top: 40%;
-    /* verticale al centro */
     left: 10%;
-    /* distanza dal bordo sinistro */
     transform: translateY(-50%);
     color: white;
     text-align: left;

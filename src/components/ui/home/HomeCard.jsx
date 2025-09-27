@@ -106,8 +106,6 @@ function HomeCard() {
 
                     <div className='card-container veriflix-cards' ref={cardContainerRef}>
                         {mostPopular.map(video => (
-                            //mettere immagine presa da yt
-                            //in immagine si mette link a playlist/video
                             <>
                                 <a
                                     key={video.id}
