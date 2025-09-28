@@ -102,6 +102,7 @@ body {
     transition: background-color 0.3s;
 }
 
+
 .main-container h2 {
     font-family: Inter, Arial, sans-serif;
     color: white !important;
@@ -109,7 +110,6 @@ body {
     font-weight: 700 !important;
     padding-left: 10%;
     padding-bottom: 2%;
-    padding-right: 5%;
 }
 
 /* horizontal card */
@@ -207,7 +207,7 @@ body {
 }
 
 .arrow svg {
-    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.7));
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.7));
 }
 
 .left-arrow {
