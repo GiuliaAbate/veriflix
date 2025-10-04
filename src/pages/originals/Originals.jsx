@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { Lives, MembersOriginals, Misc, New, Series } from '../../models/originals.';
+import { Lives, MembersOriginals, Misc, New, Series } from '../../models/originals.ts';
 import './Originals.css';
 
 function Originals() {
