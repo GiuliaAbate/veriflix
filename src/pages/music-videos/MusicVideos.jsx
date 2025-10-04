@@ -62,7 +62,7 @@ function MusicVideos() {
 
       {/* mvs diys */}
       <div className="mvs-content">
-        <h2>DIYS</h2>
+        <h2>MVs DIY VER.</h2>
         <div className="slider-wrapper">
           <button className="arrow left-arrow" onClick={() => scrollLeft(diyRef)} aria-label="Scroll left">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-left" viewBox="0 0 16 16">

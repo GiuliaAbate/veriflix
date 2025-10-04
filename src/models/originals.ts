@@ -32,10 +32,17 @@ export const New = [
 export const Lives = [
     {
         'id': 1,
-        'name': 'Gyehyeon`s Karaoke Live',
+        // 'name': 'Gyehyeon`s Karaoke Live',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/rUZ62I_VGgw/maxresdefault.jpg',
         'link': 'https://www.youtube.com/live/rUZ62I_VGgw?si=DBoIwq6Xy6w-jckj',
+    },
+    {
+        'id': 2,
+        // 'name': 'VERRERs, VERIVERY has something to',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/dgccsOyA60A/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/dgccsOyA60A?si=eeMB7DNctigJCmQR',
     },
 ]
 
@@ -226,8 +233,6 @@ export const Misc = [
 ]
 
 
-
-//{sezioni: new, series, members' original content, festivities, miscellaneous,lives
 
 /* DEFAULT
 export const  = [

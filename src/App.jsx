@@ -8,6 +8,7 @@ import Discography from './pages/discography/Discography';
 import Entertainment from './pages/entertainment/Entertainment';
 import Performances from './pages/performances/Performances';
 import Cast from './pages/cast/Cast';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/performances" element={<Performances />} />
           <Route path="/cast" element={<Cast />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   )
