@@ -47,14 +47,14 @@ p {
 .card-container.content-cards {
     display: flex;
     gap: 1rem;
-    overflow-x: scroll;
+    overflow-x: scroll !important;
     scroll-behavior: smooth;
     padding-bottom: 2rem;
     scrollbar-width: none;
     max-width: 100%;
 
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
 }
 
 .card-container.content-cards::-webkit-scrollbar {
