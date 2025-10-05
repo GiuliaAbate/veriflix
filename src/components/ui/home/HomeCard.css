@@ -8,7 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .main-cover {
     width: 100vw;
     max-width: 100vw;
@@ -40,6 +39,7 @@ body {
     color: #e50914 !important;
     display: inline;
     margin-right: 8px;
+    text-transform: uppercase;
 }
 
 .hero-title .text {

@@ -51,7 +51,7 @@ export const Perfs = [
     },
     {
         'id': 8,
-        'name': '[ITTA] Perfomance Cover - Goodbye (Taemin) By Gyehyeon & Kangmin',
+        'name': 'Perfomance Cover - Goodbye (Taemin) By Gyehyeon & Kangmin',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/CJvNd81RH-c/maxresdefault.jpg',
         'link': 'https://youtu.be/CJvNd81RH-c?si=JJnaKnLOHVYq2aYZ',

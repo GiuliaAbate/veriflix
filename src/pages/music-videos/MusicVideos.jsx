@@ -23,6 +23,7 @@ function MusicVideos() {
         <div className="side-nav">
           <h1>Music Videos</h1>
         </div>
+        <p>Check out all the official music videos from VERIVERY, including the original MVs, DIY versions, performance videos, and OSTs</p>
       </div>
 
       {/* mvs */}

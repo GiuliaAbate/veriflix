@@ -31,6 +31,8 @@ function Originals() {
             <option value="misc">Miscellaneous</option>
           </select> */}
         </div>
+        <p>Dive into VERIVERY's original Youtube content where you can found variety shows, 
+          member's individual and unit content, lives, vlogs and behind the scenes footage  </p>
         {/* content cards - new*/}
         <div className='new-content'>
           <h2>New</h2>

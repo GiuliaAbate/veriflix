@@ -22,6 +22,7 @@ function Performances() {
         <div className="side-nav">
           <h1>Perfomances</h1>
         </div>
+        <p>Watch VERIVERY's perfomances on music shows, dance practices, kcon, road to kingdom, encores and more</p>
       </div >
 
       {/* perfomances */}

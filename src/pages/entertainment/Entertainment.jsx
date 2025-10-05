@@ -22,6 +22,8 @@ function Entertainment() {
         <div className="side-nav">
           <h1>Entertainment</h1>
         </div>
+        <p>Check out all the shows featuring VERIVERY, including variety shows, dramas, and radio programs. 
+          See the group’s fun side and get to know more about their personalities </p>
       </div >
 
       {/* content */}

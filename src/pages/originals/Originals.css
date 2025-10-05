@@ -1,15 +1,17 @@
-
-.side-nav {
-    display: flex;
-    flex-wrap: column;
-    gap: 50px;
-}
-
 .side-nav h1 {
     color: white;
     text-transform: uppercase;
     padding-left: 10%;
     font-size: 35px;
+}
+
+p {
+    padding-left: 10%;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.3rem;
+    color: white;
+    padding-right: 15%;
 }
 
 .new-content h2 {
