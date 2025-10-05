@@ -4,8 +4,8 @@ body {
 }
 
 .HomeCard-root {
-  width: 100%;
-  overflow-x: hidden;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -21,7 +21,7 @@ body {
     position: relative;
     width: 100vw;
     max-width: 100vw;
-    min-height: 100vh;
+    min-height: 80vh;
     overflow: visible;
 }
 
@@ -232,4 +232,201 @@ body {
 .slider-wrapper:hover .arrow {
     opacity: 1;
     pointer-events: auto;
+}
+
+/* responsive */
+/* Tablet e schermi medi: max-width 992px */
+@media (max-width: 992px) {
+    .hero-container {
+        min-height: 60vh;
+    }
+
+    .hero-title {
+        top: 12%;
+        left: 7%;
+    }
+
+    .hero-title h2 {
+        font-size: 40px !important;
+    }
+
+    .hero-title .text {
+        font-size: 16px !important;
+    }
+
+    .hero-content {
+        top: 40%;
+        left: 10%;
+    }
+
+    .hero-container .original {
+        width: 60%;
+    }
+
+    .hero-btn {
+        padding-top: 15%;
+    }
+
+    .slider-wrapper {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .arrow {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Schermi piccoli: max-width 768px */
+@media (max-width: 768px) {
+    .hero-title {
+        top: 10%;
+        left: 5%;
+    }
+
+    .hero-title h2 {
+        font-size: 32px !important;
+    }
+
+    .hero-title .text {
+        font-size: 14px !important;
+    }
+
+    .hero-content {
+        top: 36%;
+        left: 5%;
+        width: 50%;
+    }
+
+    .hero-container .original {
+        width: 80%;
+    }
+
+    .hero-btn {
+        top: 95%;
+        transform: translateY(-50%);
+        padding-top: 12%;
+    }
+
+    .div-container {
+        flex-direction: row !important;
+        gap: 8px !important;
+        position: relative;
+        left: 10%;
+    }
+
+    .slider-wrapper {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .card-container.veriflix-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .videoCard.veriflixCard {
+        width: 45%;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Schermi molto piccoli: max-width 570px */
+@media (max-width: 570px) {
+    .hero-title {
+        top: 8%;
+        left: 5%;
+    }
+
+    .hero-title h2 {
+        font-size: 28px !important;
+    }
+
+    .hero-title .text {
+        font-size: 12px !important;
+    }
+
+    .hero-content {
+        top: 25%;
+        left: 5%;
+        width: 45%;
+    }
+
+    .hero-container .original {
+        width: 90%;
+    }
+
+    .div-container {
+        flex-direction: row !important;
+        gap: 8px !important;
+        position: relative;
+        left: 5%;
+        margin-top: 15%;
+    }
+
+    .hero-btn {
+        top: 90%;
+        padding-top: 8%;
+    }
+
+    .videoCard.veriflixCard {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .slider-wrapper {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+/* Schermi minuscoli: max-width 400px */
+@media (max-width: 549px) {
+    .hero-title h2 {
+        font-size: 22px !important;
+    }
+
+    .hero-title .text {
+        font-size: 11px !important;
+    }
+
+    .hero-content {
+        top: 22%;
+        left: 3%;
+    }
+
+    .hero-content {
+        width: 35%;
+        left: 5%;
+    }
+
+    .div-container {
+        flex-direction: row !important;
+        margin-top: 75%;
+    }
+
+    .hero-container .original {
+        width: 95%;
+    }
+
+    .hero-btn {
+        top: 88%;
+        padding-top: 6%;
+    }
+
+    .videoCard.veriflixCard {
+        width: 100%;
+    }
+
+    .slider-wrapper {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .arrow {
+        width: 50px;
+        height: 50px;
+    }
 }

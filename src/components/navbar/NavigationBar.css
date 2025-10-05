@@ -1,3 +1,4 @@
+/* Navbar di base */
 .custom-navbar {
   background-color: #141414 !important;
   padding: 1px !important;
@@ -11,14 +12,13 @@
   font-family: Inter, Arial, sans-serif;
   font-weight: 600 !important;
   text-transform: uppercase;
-  align-content: center;
 }
 
 .nav-link:hover {
   color: #e50914 !important;
 }
 
-.brand-text:hover{
+.brand-text:hover {
   color: #e50914 !important;
   cursor: default;
 }
@@ -28,11 +28,147 @@
   padding: 0;
 }
 
-.navbar-brand icon {
-  transition: transform 0.3s ease;
+/* Hamburger bianco */
+.navbar-toggler {
+  border-color: white !important;
 }
 
-.navbar-brand .icon:hover {
-  transform: scale(1.3);
+/* Sidebar laterale solo per mobile */
+.sidebar {
+  display: none;
+}
 
+.overlay {
+  display: none;
+}
+
+@media (max-width: 1264px){
+  .container{
+    padding-right: 10% !important;
+  }
+}
+
+/* Mobile: max-width 1199px (meno di xl) */
+@media (max-width: 1199px) {
+  .desktop-nav {
+    display: none;
+    /* Nasconde nav standard */
+  }
+
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #141414;
+    padding: 60px 20px;
+    transition: left 0.3s ease;
+    z-index: 1050;
+    overflow-y: auto;
+    /* permette scroll se le voci non entrano */
+  }
+
+  .sidebar.show {
+    left: 0;
+  }
+
+  .sidebar .nav-link {
+    color: white !important;
+    font-size: 18px !important;
+    margin: 12px 0;
+    white-space: nowrap;
+  }
+
+  .sidebar .nav-link:hover {
+    color: #e50914 !important;
+  }
+
+  .overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+  }
+}
+
+/* Schermi piccoli: max-width 600px */
+@media (max-width: 600px) {
+  .sidebar {
+    width: 220px;
+    padding: 50px 15px;
+  }
+
+  .sidebar .nav-link {
+    font-size: 16px !important;
+    margin: 10px 0;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+/* Schermi molto piccoli: max-width 570px */
+@media (max-width: 570px) {
+  .container {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+  .sidebar {
+    width: 180px;
+    padding: 40px 10px;
+  }
+
+  .sidebar .nav-link {
+    font-size: 14px !important;
+    margin: 8px 0;
+  }
+
+  .logo-style {
+    width: 150px;
+    height: auto;
+  }
+
+  .sidebar .icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+}
+
+/* Schermi minuscoli: max-width 400px */
+@media (max-width: 400px) {
+  .container {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+  }
+
+  .sidebar {
+    width: 160px;
+    padding: 35px 8px;
+  }
+
+  .sidebar .nav-link {
+    font-size: 12px !important;
+    margin: 6px 0;
+  }
+
+  .logo-style {
+    width: 120px;
+    height: auto;
+  }
+
+  .sidebar .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+  }
 }
