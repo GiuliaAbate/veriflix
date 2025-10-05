@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function NavigationBar() {
     return (
         //fixed="top"
-        <Navbar expand="lg" className="custom-navbar">
+        <Navbar expand="xl" className="custom-navbar">
             <Container>
                 <Navbar.Brand as={Link} to="/">
                     <img
