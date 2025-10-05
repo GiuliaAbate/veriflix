@@ -47,16 +47,20 @@ p {
 .card-container.content-cards {
     display: flex;
     gap: 1rem;
-    overflow-x: hidden;
+    overflow-x: scroll;
     scroll-behavior: smooth;
     padding-bottom: 2rem;
     scrollbar-width: none;
     max-width: 100%;
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 .card-container.content-cards::-webkit-scrollbar {
     display: none;
 }
+
 
 .videoCard.contentCard {
     flex: 0 0 auto;
@@ -70,6 +74,7 @@ p {
     text-decoration: none;
     color: #fff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-snap-align: start;
 }
 
 .videoCard.contentCard:hover {
