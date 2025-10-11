@@ -1,27 +1,34 @@
 export const New = [
     {
-        'id': 1,
+        'id' : 1,
+        'name': 'VERIVERY Past Life Experience',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/XEebJV4tb3M/maxresdefault.jpg',
+        'link': 'https://youtu.be/XEebJV4tb3M?si=lfywhX6LmAtWJ6Ok',
+    },
+    {
+        'id': 2,
         'name': 'Boys 2 Planet Commentary',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/4ZNFxxtRpic/maxresdefault.jpg',
         'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7tTB5h2iSY6OwZANgSO3_sD&si=vBz8yvi40zrWZFWm',
     },
     {
-        'id': 2,
+        'id': 3,
         'name': '00Z Fighting the Monday Blues',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/E6od5S-pKF0/maxresdefault.jpg',
         'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7u-kIiVd-YHCv-FTRl25Wvk&si=ULGBMaiKspRbmQP-',
     },
     {
-        'id': 3,
+        'id': 4,
         'name': 'BelBel Go ep1',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/nxlwM51zO1Y/maxresdefault.jpg',
         'link': 'https://youtu.be/nxlwM51zO1Y?si=kjoKziCgw_QfqRf4',
     },
     {
-        'id': 4,
+        'id': 5,
         'name': 'BelBel Go ep2',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/r9kf_sdWBBY/maxresdefault.jpg',
