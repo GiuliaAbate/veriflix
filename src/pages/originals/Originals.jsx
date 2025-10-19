@@ -37,11 +37,11 @@ function Originals() {
         <div className='new-content'>
           <h2>New</h2>
           <div className='slider-wrapper'>
-            {/* <button className="arrow left-arrow" onClick={() => scrollLeft(newRef)} aria-label="Scroll left">
+            <button className="arrow left-arrow" onClick={() => scrollLeft(newRef)} aria-label="Scroll left">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-left" viewBox="0 0 16 16">
                 <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
               </svg>
-            </button> */}
+            </button>
             <div className='card-container content-cards' ref={newRef}>
               {New.map(n => (
                 <>
@@ -59,11 +59,11 @@ function Originals() {
                 </>
               ))}
             </div>
-            {/* <button className="arrow right-arrow" onClick={() => scrollRight(newRef)} aria-label="Scroll right">
+            <button className="arrow right-arrow" onClick={() => scrollRight(newRef)} aria-label="Scroll right">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-right" viewBox="0 0 16 16">
                 <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
               </svg>
-            </button> */}
+            </button>
           </div>
         </div>
 
