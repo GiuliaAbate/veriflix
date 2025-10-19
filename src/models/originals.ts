@@ -22,30 +22,29 @@ export const New = [
     },
     {
         'id': 4,
-        'name': 'BelBel Go ep1',
+        'name': 'BelBelGo',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/nxlwM51zO1Y/maxresdefault.jpg',
-        'link': 'https://youtu.be/nxlwM51zO1Y?si=kjoKziCgw_QfqRf4',
-    },
-    {
-        'id': 5,
-        'name': 'BelBel Go ep2',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/r9kf_sdWBBY/maxresdefault.jpg',
-        'link': 'https://youtu.be/r9kf_sdWBBY?si=EjDSUdXqdrFykxaG',
-    },
+        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7vbnhs7yXDRq-BVuTPXYGGo&si=JravsBd0znyE3hFX',
+    }
 ]
 
 export const Lives = [
     {
         'id': 1,
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/8wgQP43Ss-I/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/8wgQP43Ss-I?si=i6x7YAN2TriiFS85',
+    },
+    {
+        'id': 2,
         // 'name': 'Gyehyeon`s Karaoke Live',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/rUZ62I_VGgw/maxresdefault.jpg',
         'link': 'https://www.youtube.com/live/rUZ62I_VGgw?si=DBoIwq6Xy6w-jckj',
     },
     {
-        'id': 2,
+        'id': 3,
         // 'name': 'VERRERs, VERIVERY has something to',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/dgccsOyA60A/maxresdefault.jpg',
