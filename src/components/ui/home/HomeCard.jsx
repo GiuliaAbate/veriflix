@@ -16,20 +16,15 @@ function HomeCard() {
     }
 
     const cardContainerRef = useRef(null);
+    const newRef = useRef(null);
 
-    function scrollLeft() {
-        if (cardContainerRef.current) {
-            cardContainerRef.current.scrollBy({ left: -320, behavior: 'smooth' });
-        }
+    function scrollLeft(ref) {
+        ref.current?.scrollBy({ left: -320, behavior: 'smooth' });
+    }
+    function scrollRight(ref) {
+        ref.current?.scrollBy({ left: 320, behavior: 'smooth' });
     }
 
-    function scrollRight() {
-        if (cardContainerRef.current) {
-            cardContainerRef.current.scrollBy({ left: 320, behavior: 'smooth' });
-        }
-    }
-
-    // content più popolare misto come live b2p, verivery land, ultimo cb, debutto
     const mostPopular = [
         {
             'id': 1,
@@ -60,13 +55,46 @@ function HomeCard() {
             'name': 'Lay Back',
             'thumbnail': 'https://img.youtube.com/vi/X2RyGcufXKw/maxresdefault.jpg',
             'link': 'https://youtu.be/X2RyGcufXKw?si=_1EvZddkiezNGjWq',
+        }
+        // {
+        //     'id': 6,
+        //     'name': 'Ring Ring Ring',
+        //     'thumbnail': 'https://img.youtube.com/vi/0NHj1g5taxk/maxresdefault.jpg',
+        //     'link': 'https://youtu.be/0NHj1g5taxk?si=lWzrWBh_2xDngZvM',
+        // }
+    ];
+
+    const mostRecent = [
+        {
+            'id': 1,
+            'name': 'VERIVERY Rewriting Profile',
+            'thumbnail': 'https://img.youtube.com/vi/stNpa5NcuGk/maxresdefault.jpg',
+            'link': 'https://youtu.be/stNpa5NcuGk?si=N8iOxRYwzdFn_PZO'
+        },
+        {
+            'id': 2,
+            'name': 'Finding Kani EP.22  w/ Kangmin',
+            'thumbnail': 'https://img.youtube.com/vi/0PSyevpKHkQ/maxresdefault.jpg',
+            'link': 'https://youtu.be/0PSyevpKHkQ?si=_UqsaPVO4vwaCqS_'
+        },
+        {
+            'id': 3,
+            'name': 'Khun`s Cells EP.25 w/ Dongheon & Kangmin',
+            'thumbnail': 'https://img.youtube.com/vi/25mSADUB_q0/maxresdefault.jpg',
+            'link': 'https://youtu.be/25mSADUB_q0?si=VfJJaBvGXbCA-YM_'
+        },
+        {
+            'id': 4,
+            'name': 'After Fanmeenting`s Live',
+            'thumbnail': 'https://img.youtube.com/vi/oxVv87rpWB0/maxresdefault.jpg',
+            'link': 'https://www.youtube.com/live/oxVv87rpWB0?si=YrYv9gTW0sK0FBoD'
         },
         {
             'id': 5,
-            'name': 'Ring Ring Ring',
-            'thumbnail': 'https://img.youtube.com/vi/0NHj1g5taxk/maxresdefault.jpg',
-            'link': 'https://youtu.be/0NHj1g5taxk?si=lWzrWBh_2xDngZvM',
-        }
+            'name': 'Before Fanmeenting`s Live',
+            'thumbnail': 'https://img.youtube.com/vi/8xdQJj3WkSU/maxresdefault.jpg',
+            'link': 'https://www.youtube.com/live/8xdQJj3WkSU?si=U4gTrHH8wxute8Sh'
+        },
     ];
 
     return (
@@ -99,37 +127,73 @@ function HomeCard() {
                         </div>
                     </div>
                 </div>
-                <div className='main-container'>
-                    <h2>Most Popular</h2>
-                    <div className='slider-wrapper'>
-                        <button className="arrow left-arrow" onClick={scrollLeft} aria-label="Scroll left">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-left" viewBox="0 0 16 16">
-                                <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-                            </svg>
-                        </button>
+                <div>
+                    <div className='main-container'>
+                        <h2>TOP 5 Recent</h2>
+                        <div className='slider-wrapper'>
+                            <button className="arrow left-arrow" onClick={() => scrollLeft(newRef)} aria-label="Scroll left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                </svg>
+                            </button>
 
-                        <div className='card-container veriflix-cards' ref={cardContainerRef}>
-                            {mostPopular.map(video => (
-                                <>
-                                    <a
-                                        key={video.id}
-                                        href={video.link}
-                                        target='_blank'
-                                        className='videoCard veriflixCard'
-                                    >
-                                        <div className='thumbnail-wrapper'>
-                                            <img src={video.thumbnail} alt={video.name} />
-                                            <p className='overlay-title veriflix-title'>{video.name}</p>
-                                        </div>
-                                    </a>
-                                </>
-                            ))}
+                            <div className='card-container veriflix-cards' ref={newRef}>
+                                {mostRecent.map(video => (
+                                    <>
+                                        <a
+                                            key={video.id}
+                                            href={video.link}
+                                            target='_blank'
+                                            className='videoCard veriflixCard'
+                                        >
+                                            <div className='thumbnail-wrapper'>
+                                                <img src={video.thumbnail} alt={video.name} />
+                                                <p className='overlay-title veriflix-title'>{video.name}</p>
+                                            </div>
+                                        </a>
+                                    </>
+                                ))}
+                            </div>
+                            <button className="arrow right-arrow" onClick={() => scrollRight(newRef)} aria-label="Scroll right">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </button>
                         </div>
-                        <button className="arrow right-arrow" onClick={scrollRight} aria-label="Scroll right">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-right" viewBox="0 0 16 16">
-                                <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
-                            </svg>
-                        </button>
+                    </div>
+                    <div className='main-container'>
+                        <h2>TOP 5 Popular</h2>
+                        <div className='slider-wrapper'>
+                            <button className="arrow left-arrow" onClick={() => scrollLeft(cardContainerRef)} aria-label="Scroll left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                </svg>
+                            </button>
+
+                            <div className='card-container veriflix-cards' ref={cardContainerRef}>
+                                {mostPopular.map(video => (
+                                    <>
+                                        <a
+                                            key={video.id}
+                                            href={video.link}
+                                            target='_blank'
+                                            className='videoCard veriflixCard'
+                                        >
+                                            <div className='thumbnail-wrapper'>
+                                                <img src={video.thumbnail} alt={video.name} />
+                                                <div className='overlay-title veriflix-title'>
+                                                    <span>{video.name}</span></div>
+                                            </div>
+                                        </a>
+                                    </>
+                                ))}
+                            </div>
+                            <button className="arrow right-arrow" onClick={() => scrollRight(cardContainerRef)} aria-label="Scroll right">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" strokeWidth="2" className="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

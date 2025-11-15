@@ -186,12 +186,12 @@ body {
 .overlay-title {
     position: absolute;
     left: 0;
-    top: 81%;
+    top: 86% !important;
     width: 100%;
     background: rgba(0, 0, 0, 0.75);
     color: #fff;
     font-family: Inter, Arial, sans-serif;
-    font-size: 1.1rem;
+    font-size: 13px !important;
     font-weight: 700;
     padding: 6px 12px 0 12px;
     box-sizing: border-box;
