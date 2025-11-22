@@ -154,14 +154,24 @@ export const Dramas = [
 
 export const SoloUnit = [
     {
+        'name': 'Call Me Baby EP.08',
+        'thumbnail': 'https://img.youtube.com/vi/Uibz94EPV4Q/maxresdefault.jpg',
+        'link': 'https://youtu.be/Uibz94EPV4Q?si=Q_cglsWkjDFeMpft'
+    },
+    {
+        'name': 'Hong Seokcheon`s Jewel Box Season 4 EP.22',
+        'thumbnail': 'https://img.youtube.com/vi/dFnll24wyhY/maxresdefault.jpg',
+        'link': 'https://youtu.be/dFnll24wyhY?si=WS7B616SIXzmoc1v'
+    },
+    {
 
-        'name': 'Finding Kani EP.22  w/ Kangmin',
+        'name': 'Finding Kani EP.22',
         'thumbnail': 'https://img.youtube.com/vi/0PSyevpKHkQ/maxresdefault.jpg',
         'link': 'https://youtu.be/0PSyevpKHkQ?si=_UqsaPVO4vwaCqS_'
     },
     {
 
-        'name': 'Khun`s Cells EP.25 w/ Dongheon & Kangmin',
+        'name': 'Khun`s Cells EP.25',
         'thumbnail': 'https://img.youtube.com/vi/25mSADUB_q0/maxresdefault.jpg',
         'link': 'https://youtu.be/25mSADUB_q0?si=VfJJaBvGXbCA-YM_'
     },

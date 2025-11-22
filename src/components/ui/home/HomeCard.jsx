@@ -67,34 +67,46 @@ function HomeCard() {
     const mostRecent = [
         {
             'id': 1,
+            'name': 'Call Me Baby EP.08',
+            'thumbnail': 'https://img.youtube.com/vi/Uibz94EPV4Q/maxresdefault.jpg',
+            'link': 'https://youtu.be/Uibz94EPV4Q?si=Q_cglsWkjDFeMpft'
+        },
+        {
+            'id': 2,
+            'name': 'Hong Seokcheon`s Jewel Box Season 4 EP.22',
+            'thumbnail': 'https://img.youtube.com/vi/dFnll24wyhY/maxresdefault.jpg',
+            'link': 'https://youtu.be/dFnll24wyhY?si=WS7B616SIXzmoc1v'
+        },
+        {
+            'id': 3,
             'name': 'VERIVERY Rewriting Profile',
             'thumbnail': 'https://img.youtube.com/vi/stNpa5NcuGk/maxresdefault.jpg',
             'link': 'https://youtu.be/stNpa5NcuGk?si=N8iOxRYwzdFn_PZO'
         },
         {
-            'id': 2,
+            'id': 4,
             'name': 'Finding Kani EP.22  w/ Kangmin',
             'thumbnail': 'https://img.youtube.com/vi/0PSyevpKHkQ/maxresdefault.jpg',
             'link': 'https://youtu.be/0PSyevpKHkQ?si=_UqsaPVO4vwaCqS_'
         },
         {
-            'id': 3,
+            'id': 5,
             'name': 'Khun`s Cells EP.25 w/ Dongheon & Kangmin',
             'thumbnail': 'https://img.youtube.com/vi/25mSADUB_q0/maxresdefault.jpg',
             'link': 'https://youtu.be/25mSADUB_q0?si=VfJJaBvGXbCA-YM_'
         },
-        {
-            'id': 4,
-            'name': 'After Fanmeenting`s Live',
-            'thumbnail': 'https://img.youtube.com/vi/oxVv87rpWB0/maxresdefault.jpg',
-            'link': 'https://www.youtube.com/live/oxVv87rpWB0?si=YrYv9gTW0sK0FBoD'
-        },
-        {
-            'id': 5,
-            'name': 'Before Fanmeenting`s Live',
-            'thumbnail': 'https://img.youtube.com/vi/8xdQJj3WkSU/maxresdefault.jpg',
-            'link': 'https://www.youtube.com/live/8xdQJj3WkSU?si=U4gTrHH8wxute8Sh'
-        },
+        // {
+        //     'id': 4,
+        //     'name': 'After Fanmeenting`s Live',
+        //     'thumbnail': 'https://img.youtube.com/vi/oxVv87rpWB0/maxresdefault.jpg',
+        //     'link': 'https://www.youtube.com/live/oxVv87rpWB0?si=YrYv9gTW0sK0FBoD'
+        // },
+        // {
+        //     'id': 5,
+        //     'name': 'Before Fanmeenting`s Live',
+        //     'thumbnail': 'https://img.youtube.com/vi/8xdQJj3WkSU/maxresdefault.jpg',
+        //     'link': 'https://www.youtube.com/live/8xdQJj3WkSU?si=U4gTrHH8wxute8Sh'
+        // },
     ];
 
     return (
