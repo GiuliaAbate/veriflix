@@ -28,85 +28,68 @@ function HomeCard() {
     const mostPopular = [
         {
             'id': 1,
+            "name": "RED (Beggin')",
+            "thumbnail": "https://img.youtube.com/vi/-gzqfjzqG6U/maxresdefault.jpg",
+            "link": "https://youtu.be/-gzqfjzqG6U?si=ag1jAX6cX8ViwUGS",
+        },
+        {
+            'id': 2,
             'name': 'Boys 2 Planet Commentary',
             'thumbnail': 'https://img.youtube.com/vi/4ZNFxxtRpic/maxresdefault.jpg',
             'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7tTB5h2iSY6OwZANgSO3_sD&si=aGNVXsXDE2GCH1kW',
         },
         {
-            'id': 2,
+            'id': 3,
             'name': 'Verivery Land',
             'thumbnail': 'https://img.youtube.com/vi/d0nevsgvouA/maxresdefault.jpg',
             'link': 'https://youtube.com/playlist?list=PLDlie7qJlOneBtcLGibg9AnqCKm_mP5UH&si=X_dFj25XCYMeuBmh',
         },
         {
-            'id': 3,
+            'id': 4,
             'name': 'Crazy Like That',
             'thumbnail': 'https://img.youtube.com/vi/c46Psa0YiuA/maxresdefault.jpg',
             'link': 'https://youtu.be/c46Psa0YiuA?si=SSbVp7-r6z9-WS1i',
         },
         {
-            'id': 4,
+            'id': 5,
             'name': 'G.B.T.B',
             'thumbnail': 'https://img.youtube.com/vi/iDfFtJcj5x4/maxresdefault.jpg',
             'link': 'https://youtu.be/iDfFtJcj5x4?si=4GAR0n-Neq7ciLQF',
         },
-        {
-            'id': 5,
-            'name': 'Lay Back',
-            'thumbnail': 'https://img.youtube.com/vi/X2RyGcufXKw/maxresdefault.jpg',
-            'link': 'https://youtu.be/X2RyGcufXKw?si=_1EvZddkiezNGjWq',
-        }
-        // {
-        //     'id': 6,
-        //     'name': 'Ring Ring Ring',
-        //     'thumbnail': 'https://img.youtube.com/vi/0NHj1g5taxk/maxresdefault.jpg',
-        //     'link': 'https://youtu.be/0NHj1g5taxk?si=lWzrWBh_2xDngZvM',
-        // }
     ];
 
     const mostRecent = [
         {
             'id': 1,
-            'name': 'Call Me Baby EP.08',
-            'thumbnail': 'https://img.youtube.com/vi/Uibz94EPV4Q/maxresdefault.jpg',
-            'link': 'https://youtu.be/Uibz94EPV4Q?si=Q_cglsWkjDFeMpft'
+            "name": "RED (Beggin')",
+            "thumbnail": "https://img.youtube.com/vi/-gzqfjzqG6U/maxresdefault.jpg",
+            "link": "https://youtu.be/-gzqfjzqG6U?si=ag1jAX6cX8ViwUGS",
         },
         {
             'id': 2,
-            'name': 'Hong Seokcheon`s Jewel Box Season 4 EP.22',
-            'thumbnail': 'https://img.youtube.com/vi/dFnll24wyhY/maxresdefault.jpg',
-            'link': 'https://youtu.be/dFnll24wyhY?si=WS7B616SIXzmoc1v'
+            'name': 'High School`s Attack',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/cedhgcVhdg4/maxresdefault.jpg',
+            'link': 'https://youtu.be/cedhgcVhdg4?si=J7MapBfQHcQpv-pB',
         },
         {
             'id': 3,
-            'name': 'VERIVERY Rewriting Profile',
-            'thumbnail': 'https://img.youtube.com/vi/stNpa5NcuGk/maxresdefault.jpg',
-            'link': 'https://youtu.be/stNpa5NcuGk?si=N8iOxRYwzdFn_PZO'
+            'name': 'Jae` Friends EP.90',
+            'thumbnail': 'https://img.youtube.com/vi/5Ry5vnP3stE/maxresdefault.jpg',
+            'link': 'https://youtu.be/5Ry5vnP3stE?si=_N08Ot7ONHsnW4NZ'
         },
         {
             'id': 4,
-            'name': 'Finding Kani EP.22  w/ Kangmin',
-            'thumbnail': 'https://img.youtube.com/vi/0PSyevpKHkQ/maxresdefault.jpg',
-            'link': 'https://youtu.be/0PSyevpKHkQ?si=_UqsaPVO4vwaCqS_'
+            'name': 'Duckbap House EP.03',
+            'thumbnail': 'https://img.youtube.com/vi/v6aqWxpcYCY/maxresdefault.jpg',
+            'link': 'https://youtu.be/v6aqWxpcYCY?si=yuUHaHvU_wuhNMIs'
         },
         {
             'id': 5,
-            'name': 'Khun`s Cells EP.25 w/ Dongheon & Kangmin',
-            'thumbnail': 'https://img.youtube.com/vi/25mSADUB_q0/maxresdefault.jpg',
-            'link': 'https://youtu.be/25mSADUB_q0?si=VfJJaBvGXbCA-YM_'
-        },
-        // {
-        //     'id': 4,
-        //     'name': 'After Fanmeenting`s Live',
-        //     'thumbnail': 'https://img.youtube.com/vi/oxVv87rpWB0/maxresdefault.jpg',
-        //     'link': 'https://www.youtube.com/live/oxVv87rpWB0?si=YrYv9gTW0sK0FBoD'
-        // },
-        // {
-        //     'id': 5,
-        //     'name': 'Before Fanmeenting`s Live',
-        //     'thumbnail': 'https://img.youtube.com/vi/8xdQJj3WkSU/maxresdefault.jpg',
-        //     'link': 'https://www.youtube.com/live/8xdQJj3WkSU?si=U4gTrHH8wxute8Sh'
-        // },
+            'name': 'Hong Seokcheon`s Jewel Box Season 4 EP.22',
+            'thumbnail': 'https://img.youtube.com/vi/dFnll24wyhY/maxresdefault.jpg',
+            'link': 'https://youtu.be/dFnll24wyhY?si=WS7B616SIXzmoc1v'
+        }
     ];
 
     return (

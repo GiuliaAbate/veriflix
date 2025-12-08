@@ -2,6 +2,12 @@
 
 export const Miscellaneous = [
     {
+        'name': 'High School`s Attack',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/cedhgcVhdg4/maxresdefault.jpg',
+        'link': 'https://youtu.be/cedhgcVhdg4?si=J7MapBfQHcQpv-pB',
+    },
+    {
         'name': 'Weekly Idol',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/FK-USd_BcfQ/maxresdefault.jpg',
@@ -153,6 +159,16 @@ export const Dramas = [
 ]
 
 export const SoloUnit = [
+    {
+        'name': 'Jae` Friends EP.90',
+        'thumbnail': 'https://img.youtube.com/vi/5Ry5vnP3stE/maxresdefault.jpg',
+        'link': 'https://youtu.be/5Ry5vnP3stE?si=_N08Ot7ONHsnW4NZ'
+    },
+    {
+        'name': 'Duckbap House EP.03',
+        'thumbnail': 'https://img.youtube.com/vi/v6aqWxpcYCY/maxresdefault.jpg',
+        'link': 'https://youtu.be/v6aqWxpcYCY?si=yuUHaHvU_wuhNMIs'
+    },
     {
         'name': 'Call Me Baby EP.08',
         'thumbnail': 'https://img.youtube.com/vi/Uibz94EPV4Q/maxresdefault.jpg',
