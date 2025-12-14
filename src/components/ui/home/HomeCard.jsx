@@ -61,34 +61,35 @@ function HomeCard() {
     const mostRecent = [
         {
             'id': 1,
+            'name': 'Lost & Found | Beep, soul swap incident detected',
+            'thumbnail': 'https://img.youtube.com/vi/O9s0HgfoPy4/maxresdefault.jpg',
+            'link': 'https://youtu.be/O9s0HgfoPy4?si=cCzZzVFDRwrivOd2'
+        },
+        {
+            'id': 2,
+            'name': 'RED (Beggin`) 1st Win - YT Live',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/J1stDQNFVFM/maxresdefault.jpg',
+            'link': 'https://www.youtube.com/live/J1stDQNFVFM?si=yTpG2RixTJfbpQnq',
+        },
+        {
+            'id': 3,
             "name": "RED (Beggin')",
             "thumbnail": "https://img.youtube.com/vi/-gzqfjzqG6U/maxresdefault.jpg",
             "link": "https://youtu.be/-gzqfjzqG6U?si=ag1jAX6cX8ViwUGS",
         },
         {
-            'id': 2,
+            'id': 4,
             'name': 'High School`s Attack',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/cedhgcVhdg4/maxresdefault.jpg',
             'link': 'https://youtu.be/cedhgcVhdg4?si=J7MapBfQHcQpv-pB',
         },
         {
-            'id': 3,
+            'id': 5,
             'name': 'Jae` Friends EP.90',
             'thumbnail': 'https://img.youtube.com/vi/5Ry5vnP3stE/maxresdefault.jpg',
             'link': 'https://youtu.be/5Ry5vnP3stE?si=_N08Ot7ONHsnW4NZ'
-        },
-        {
-            'id': 4,
-            'name': 'Duckbap House EP.03',
-            'thumbnail': 'https://img.youtube.com/vi/v6aqWxpcYCY/maxresdefault.jpg',
-            'link': 'https://youtu.be/v6aqWxpcYCY?si=yuUHaHvU_wuhNMIs'
-        },
-        {
-            'id': 5,
-            'name': 'Hong Seokcheon`s Jewel Box Season 4 EP.22',
-            'thumbnail': 'https://img.youtube.com/vi/dFnll24wyhY/maxresdefault.jpg',
-            'link': 'https://youtu.be/dFnll24wyhY?si=WS7B616SIXzmoc1v'
         }
     ];
 
