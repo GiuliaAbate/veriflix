@@ -87,4 +87,11 @@ export const Encores = [
         'thumbnail': 'https://img.youtube.com/vi/kM9XvA8tGXo/maxresdefault.jpg',
         'link': 'https://youtu.be/kM9XvA8tGXo?si=_Kk2lcOCf5bxP0n6',
     },
+    {
+        'id': 2,
+        'name': 'RED (Beggin`) 1st Win - YT Live',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/J1stDQNFVFM/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/J1stDQNFVFM?si=yTpG2RixTJfbpQnq',
+    }
 ]

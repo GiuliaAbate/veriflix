@@ -1,6 +1,10 @@
 export const New = [
     {
-
+        'name': 'Lost & Found | Beep, soul swap incident detected',
+        'thumbnail': 'https://img.youtube.com/vi/O9s0HgfoPy4/maxresdefault.jpg',
+        'link': 'https://youtu.be/O9s0HgfoPy4?si=cCzZzVFDRwrivOd2'
+    },
+    {
         'name': 'VERIVERY Rewriting Profile',
         'thumbnail': 'https://img.youtube.com/vi/stNpa5NcuGk/maxresdefault.jpg',
         'link': 'https://youtu.be/stNpa5NcuGk?si=N8iOxRYwzdFn_PZO'
@@ -22,16 +26,22 @@ export const New = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/4ZNFxxtRpic/maxresdefault.jpg',
         'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7tTB5h2iSY6OwZANgSO3_sD&si=vBz8yvi40zrWZFWm',
-    },
-    {
-        'name': '00Z Fighting the Monday Blues',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/E6od5S-pKF0/maxresdefault.jpg',
-        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7u-kIiVd-YHCv-FTRl25Wvk&si=ULGBMaiKspRbmQP-',
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Lives = [
+    {
+        'name': 'RED (Beggin`) 1st Win',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/J1stDQNFVFM/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/J1stDQNFVFM?si=yTpG2RixTJfbpQnq',
+    },
+    {
+        'name': 'VERIVERY 4th SINGLE ALBUM [Lost and Found] COUNTDOWN LIVE',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/g4z4RqiQ0ck/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/g4z4RqiQ0ck?si=xDTs0khjIh4qCllq',
+    },
     {
         'name': 'On the way home with the Bellbellies',
         'desc': '',
