@@ -2,6 +2,11 @@
 
 export const Miscellaneous = [
     {
+        "name": "Simply KPop S.N.S Ep.12",
+        "thumbnail": "https://img.youtube.com/vi/4x8fQRVnprg/maxresdefault.jpg",
+        "link": "https://youtu.be/4x8fQRVnprg?si=9o4GbZPOrnozZyPi",
+    },
+    {
         'name': 'High School`s Attack',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/cedhgcVhdg4/maxresdefault.jpg',

@@ -67,29 +67,29 @@ function HomeCard() {
         },
         {
             'id': 2,
+            "name": "Simply KPop S.N.S Ep.12",
+            "thumbnail": "https://img.youtube.com/vi/4x8fQRVnprg/maxresdefault.jpg",
+            "link": "https://youtu.be/4x8fQRVnprg?si=9o4GbZPOrnozZyPi",
+        },
+        {
+            'id': 3,
             'name': 'High School`s Attack',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/cedhgcVhdg4/maxresdefault.jpg',
             'link': 'https://youtu.be/cedhgcVhdg4?si=J7MapBfQHcQpv-pB',
         },
         {
-            'id': 3,
+            'id': 4,
             'name': 'Jae` Friends EP.90',
             'thumbnail': 'https://img.youtube.com/vi/5Ry5vnP3stE/maxresdefault.jpg',
             'link': 'https://youtu.be/5Ry5vnP3stE?si=_N08Ot7ONHsnW4NZ'
         },
         {
-            'id': 4,
+            'id': 5,
             'name': 'Duckbap House EP.03',
             'thumbnail': 'https://img.youtube.com/vi/v6aqWxpcYCY/maxresdefault.jpg',
             'link': 'https://youtu.be/v6aqWxpcYCY?si=yuUHaHvU_wuhNMIs'
         },
-        {
-            'id': 5,
-            'name': 'Hong Seokcheon`s Jewel Box Season 4 EP.22',
-            'thumbnail': 'https://img.youtube.com/vi/dFnll24wyhY/maxresdefault.jpg',
-            'link': 'https://youtu.be/dFnll24wyhY?si=WS7B616SIXzmoc1v'
-        }
     ];
 
     return (
