@@ -61,35 +61,34 @@ function HomeCard() {
     const mostRecent = [
         {
             'id': 1,
+            'name': 'Chart In & Out EP.4',
+            'thumbnail': 'https://img.youtube.com/vi/LCFWB_GbBlA/maxresdefault.jpg',
+            'link': 'https://youtu.be/LCFWB_GbBlA?si=-T7tQqTa7mTGTEj2'
+        },
+        {
+            'id': 2,
+            'name': 'The Truth Untold (BTS) Cover by Kangmin',
+            'thumbnail': 'https://img.youtube.com/vi/snirh-Ucn0g/maxresdefault.jpg',
+            'link': 'https://youtu.be/snirh-Ucn0g?si=Rba4QZcow7DBCC-F'
+        },
+        {
+            'id': 3,
             "name": "Simply KPop S.N.S Ep.12",
             "thumbnail": "https://img.youtube.com/vi/4x8fQRVnprg/maxresdefault.jpg",
             "link": "https://youtu.be/4x8fQRVnprg?si=9o4GbZPOrnozZyPi",
         },
         {
-            'id': 2,
+            'id': 4,
             'name': 'Lost & Found | Beep, soul swap incident detected',
             'thumbnail': 'https://img.youtube.com/vi/O9s0HgfoPy4/maxresdefault.jpg',
             'link': 'https://youtu.be/O9s0HgfoPy4?si=cCzZzVFDRwrivOd2'
         },
         {
-            'id': 3,
+            'id': 5,
             'name': 'RED (Beggin`) 1st Win - YT Live',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/J1stDQNFVFM/maxresdefault.jpg',
             'link': 'https://www.youtube.com/live/J1stDQNFVFM?si=yTpG2RixTJfbpQnq',
-        },
-        {
-            'id': 4,
-            "name": "RED (Beggin')",
-            "thumbnail": "https://img.youtube.com/vi/-gzqfjzqG6U/maxresdefault.jpg",
-            "link": "https://youtu.be/-gzqfjzqG6U?si=ag1jAX6cX8ViwUGS",
-        },
-        {
-            'id': 5,
-            'name': 'High School`s Attack',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/cedhgcVhdg4/maxresdefault.jpg',
-            'link': 'https://youtu.be/cedhgcVhdg4?si=J7MapBfQHcQpv-pB',
         }
     ];
 

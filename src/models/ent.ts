@@ -165,6 +165,11 @@ export const Dramas = [
 
 export const SoloUnit = [
     {
+        'name': 'Chart In & Out EP.4',
+        'thumbnail': 'https://img.youtube.com/vi/LCFWB_GbBlA/maxresdefault.jpg',
+        'link': 'https://youtu.be/LCFWB_GbBlA?si=-T7tQqTa7mTGTEj2'
+    },
+    {
         'name': 'Jae` Friends EP.90',
         'thumbnail': 'https://img.youtube.com/vi/5Ry5vnP3stE/maxresdefault.jpg',
         'link': 'https://youtu.be/5Ry5vnP3stE?si=_N08Ot7ONHsnW4NZ'
