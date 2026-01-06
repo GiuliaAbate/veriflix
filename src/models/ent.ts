@@ -2,6 +2,16 @@
 
 export const Miscellaneous = [
     {
+        'name': 'Play Together, VERIVERY Family Entertainment ',
+        'thumbnail': 'https://img.youtube.com/vi/KU6LCnxVctM/maxresdefault.jpg',
+        'link': 'https://youtu.be/KU6LCnxVctM?si=TxbeGMRYkgOJdVsw'
+    },
+    {
+        'name': 'Car!Plist Winter Edition EP.3',
+        'thumbnail': 'https://img.youtube.com/vi/6-XfIxnunQQ/maxresdefault.jpg',
+        'link': 'https://youtu.be/6-XfIxnunQQ?si=7ud33dRN7Dsya4Mf'
+    },
+    {
         "name": "Simply KPop S.N.S Ep.12",
         "thumbnail": "https://img.youtube.com/vi/4x8fQRVnprg/maxresdefault.jpg",
         "link": "https://youtu.be/4x8fQRVnprg?si=9o4GbZPOrnozZyPi",

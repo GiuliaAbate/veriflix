@@ -27,70 +27,59 @@ function HomeCard() {
 
     const mostPopular = [
         {
-            'id': 1,
             "name": "RED (Beggin')",
             "thumbnail": "https://img.youtube.com/vi/-gzqfjzqG6U/maxresdefault.jpg",
             "link": "https://youtu.be/-gzqfjzqG6U?si=ag1jAX6cX8ViwUGS",
         },
         {
-            'id': 2,
             'name': 'Boys 2 Planet Commentary',
             'thumbnail': 'https://img.youtube.com/vi/4ZNFxxtRpic/maxresdefault.jpg',
             'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7tTB5h2iSY6OwZANgSO3_sD&si=aGNVXsXDE2GCH1kW',
         },
         {
-            'id': 3,
             'name': 'Verivery Land',
             'thumbnail': 'https://img.youtube.com/vi/d0nevsgvouA/maxresdefault.jpg',
             'link': 'https://youtube.com/playlist?list=PLDlie7qJlOneBtcLGibg9AnqCKm_mP5UH&si=X_dFj25XCYMeuBmh',
         },
         {
-            'id': 4,
             'name': 'Crazy Like That',
             'thumbnail': 'https://img.youtube.com/vi/c46Psa0YiuA/maxresdefault.jpg',
             'link': 'https://youtu.be/c46Psa0YiuA?si=SSbVp7-r6z9-WS1i',
         },
         {
-            'id': 5,
             'name': 'G.B.T.B',
             'thumbnail': 'https://img.youtube.com/vi/iDfFtJcj5x4/maxresdefault.jpg',
             'link': 'https://youtu.be/iDfFtJcj5x4?si=4GAR0n-Neq7ciLQF',
         },
-    ];
+    ].map((item, index) => ({ ...item, id: index + 1 }));
 
     const mostRecent = [
         {
-            'id': 1,
+            'name': 'Play Together, VERIVERY Family Entertainment ',
+            'thumbnail': 'https://img.youtube.com/vi/KU6LCnxVctM/maxresdefault.jpg',
+            'link': 'https://youtu.be/KU6LCnxVctM?si=TxbeGMRYkgOJdVsw'
+        },
+        {
+            'name': 'Car!Plist Winter Edition EP.3',
+            'thumbnail': 'https://img.youtube.com/vi/6-XfIxnunQQ/maxresdefault.jpg',
+            'link': 'https://youtu.be/6-XfIxnunQQ?si=7ud33dRN7Dsya4Mf'
+        },
+        {
             'name': 'Chart In & Out EP.4',
             'thumbnail': 'https://img.youtube.com/vi/LCFWB_GbBlA/maxresdefault.jpg',
             'link': 'https://youtu.be/LCFWB_GbBlA?si=-T7tQqTa7mTGTEj2'
         },
         {
-            'id': 2,
             'name': 'The Truth Untold (BTS) Cover by Kangmin',
             'thumbnail': 'https://img.youtube.com/vi/snirh-Ucn0g/maxresdefault.jpg',
             'link': 'https://youtu.be/snirh-Ucn0g?si=Rba4QZcow7DBCC-F'
         },
         {
-            'id': 3,
             "name": "Simply KPop S.N.S Ep.12",
             "thumbnail": "https://img.youtube.com/vi/4x8fQRVnprg/maxresdefault.jpg",
             "link": "https://youtu.be/4x8fQRVnprg?si=9o4GbZPOrnozZyPi",
-        },
-        {
-            'id': 4,
-            'name': 'Lost & Found | Beep, soul swap incident detected',
-            'thumbnail': 'https://img.youtube.com/vi/O9s0HgfoPy4/maxresdefault.jpg',
-            'link': 'https://youtu.be/O9s0HgfoPy4?si=cCzZzVFDRwrivOd2'
-        },
-        {
-            'id': 5,
-            'name': 'RED (Beggin`) 1st Win - YT Live',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/J1stDQNFVFM/maxresdefault.jpg',
-            'link': 'https://www.youtube.com/live/J1stDQNFVFM?si=yTpG2RixTJfbpQnq',
         }
-    ];
+    ].map((item, index) => ({ ...item, id: index + 1 }));
 
     return (
         <>
