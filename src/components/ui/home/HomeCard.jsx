@@ -55,6 +55,12 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'VERIVERY`s 7th Anniversary',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/ZxqmHmRy_Lc/sddefault.jpg',
+            'link': 'https://www.youtube.com/live/ZxqmHmRy_Lc?si=OiF7Tk25D-Tg026z',
+        },
+        {
             'name': 'Play Together, VERIVERY Family Entertainment ',
             'thumbnail': 'https://img.youtube.com/vi/KU6LCnxVctM/maxresdefault.jpg',
             'link': 'https://youtu.be/KU6LCnxVctM?si=TxbeGMRYkgOJdVsw'
@@ -73,11 +79,6 @@ function HomeCard() {
             'name': 'The Truth Untold (BTS) Cover by Kangmin',
             'thumbnail': 'https://img.youtube.com/vi/snirh-Ucn0g/maxresdefault.jpg',
             'link': 'https://youtu.be/snirh-Ucn0g?si=Rba4QZcow7DBCC-F'
-        },
-        {
-            "name": "Simply KPop S.N.S Ep.12",
-            "thumbnail": "https://img.youtube.com/vi/4x8fQRVnprg/maxresdefault.jpg",
-            "link": "https://youtu.be/4x8fQRVnprg?si=9o4GbZPOrnozZyPi",
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 

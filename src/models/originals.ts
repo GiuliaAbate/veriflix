@@ -31,6 +31,12 @@ export const New = [
 
 export const Lives = [
     {
+        'name': 'VERIVERY`s 7th Anniversary',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/ZxqmHmRy_Lc/sddefault.jpg',
+        'link': 'https://www.youtube.com/live/ZxqmHmRy_Lc?si=OiF7Tk25D-Tg026z',
+    },
+    {
         'name': 'RED (Beggin`) 1st Win',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/J1stDQNFVFM/maxresdefault.jpg',
