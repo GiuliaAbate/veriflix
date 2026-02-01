@@ -55,6 +55,18 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'Kangmin`s Individual Fanmeeting ',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/TjqhXf3dMcA/maxresdefault.jpg',
+            'link': 'https://www.youtube.com/live/TjqhXf3dMcA?si=MDPh5QQ4Zf65YxR8',
+        },
+        {
+            'name': 'HAPPY KANGMIN DAY',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/125ugyTdTZY/maxresdefault.jpg',
+            'link': 'https://www.youtube.com/live/125ugyTdTZY?si=xPAdFPmyHqfw-10E',
+        },
+        {
             'name': 'VERIVERY`s 7th Anniversary',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/ZxqmHmRy_Lc/sddefault.jpg',
@@ -69,16 +81,6 @@ function HomeCard() {
             'name': 'Car!Plist Winter Edition EP.3',
             'thumbnail': 'https://img.youtube.com/vi/6-XfIxnunQQ/maxresdefault.jpg',
             'link': 'https://youtu.be/6-XfIxnunQQ?si=7ud33dRN7Dsya4Mf'
-        },
-        {
-            'name': 'Chart In & Out EP.4',
-            'thumbnail': 'https://img.youtube.com/vi/LCFWB_GbBlA/maxresdefault.jpg',
-            'link': 'https://youtu.be/LCFWB_GbBlA?si=-T7tQqTa7mTGTEj2'
-        },
-        {
-            'name': 'The Truth Untold (BTS) Cover by Kangmin',
-            'thumbnail': 'https://img.youtube.com/vi/snirh-Ucn0g/maxresdefault.jpg',
-            'link': 'https://youtu.be/snirh-Ucn0g?si=Rba4QZcow7DBCC-F'
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 

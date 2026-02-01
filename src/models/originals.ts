@@ -31,6 +31,18 @@ export const New = [
 
 export const Lives = [
     {
+        'name': 'Kangmin`s Individual Fanmeeting ',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/TjqhXf3dMcA/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/TjqhXf3dMcA?si=MDPh5QQ4Zf65YxR8',
+    },
+    {
+        'name': 'HAPPY KANGMIN DAY',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/125ugyTdTZY/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/125ugyTdTZY?si=xPAdFPmyHqfw-10E',
+    },
+    {
         'name': 'VERIVERY`s 7th Anniversary',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/ZxqmHmRy_Lc/sddefault.jpg',
