@@ -55,6 +55,21 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
+            'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
+            'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
+        },
+        {
+            'name': '2026 KANGMIN FANMEETING Recap Video',
+            'thumbnail': 'https://img.youtube.com/vi/wQNNe3l4598/maxresdefault.jpg',
+            'link': 'https://youtu.be/wQNNe3l4598?si=uAjks7d02NMB76Gu'
+        },
+        {
+            'name': 'Snow Prince ❄️ covered by Kangmin ',
+            'thumbnail': 'https://img.youtube.com/vi/HsCBi6477rE/maxresdefault.jpg',
+            'link': 'https://youtu.be/HsCBi6477rE?si=fkNlebobKeCMw_N-'
+        },
+        {
             'name': 'Kangmin`s Individual Fanmeeting ',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/TjqhXf3dMcA/maxresdefault.jpg',
@@ -71,16 +86,6 @@ function HomeCard() {
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/ZxqmHmRy_Lc/sddefault.jpg',
             'link': 'https://www.youtube.com/live/ZxqmHmRy_Lc?si=OiF7Tk25D-Tg026z',
-        },
-        {
-            'name': 'Play Together, VERIVERY Family Entertainment ',
-            'thumbnail': 'https://img.youtube.com/vi/KU6LCnxVctM/maxresdefault.jpg',
-            'link': 'https://youtu.be/KU6LCnxVctM?si=TxbeGMRYkgOJdVsw'
-        },
-        {
-            'name': 'Car!Plist Winter Edition EP.3',
-            'thumbnail': 'https://img.youtube.com/vi/6-XfIxnunQQ/maxresdefault.jpg',
-            'link': 'https://youtu.be/6-XfIxnunQQ?si=7ud33dRN7Dsya4Mf'
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 

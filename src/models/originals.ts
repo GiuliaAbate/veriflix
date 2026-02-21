@@ -1,5 +1,10 @@
 export const New = [
     {
+        'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
+        'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
+        'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
+    },
+    {
         'name': 'Lost & Found | Beep, soul swap incident detected',
         'thumbnail': 'https://img.youtube.com/vi/O9s0HgfoPy4/maxresdefault.jpg',
         'link': 'https://youtu.be/O9s0HgfoPy4?si=cCzZzVFDRwrivOd2'
@@ -14,12 +19,6 @@ export const New = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/XEebJV4tb3M/maxresdefault.jpg',
         'link': 'https://youtu.be/XEebJV4tb3M?si=lfywhX6LmAtWJ6Ok',
-    },
-    {
-        'name': 'BelBelGo',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/nxlwM51zO1Y/maxresdefault.jpg',
-        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7vbnhs7yXDRq-BVuTPXYGGo&si=JravsBd0znyE3hFX',
     },
     {
         'name': 'Boys 2 Planet Commentary',
@@ -260,6 +259,11 @@ export const Misc = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/run2qaO7zeM/maxresdefault.jpg',
         'link': 'https://youtu.be/run2qaO7zeM?si=5u2zb_BTdEdMCkTh',
+    },
+    {
+        'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
+        'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
+        'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
     },
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
