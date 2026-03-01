@@ -158,22 +158,37 @@ export const Miscellaneous = [
 
 export const Dramas = [
     {
-        'id': 1,
         'name': 'Snap and Spark',
         'desc': 'Kangmin`s drama',
         'thumbnail': 'https://img.youtube.com/vi/2lMxRLkzhxE/maxresdefault.jpg',
         'link': 'https://youtube.com/playlist?list=PLqqQvcAR1H0k7wM9tj7bV32LPAKsqv-T4&si=-_XvwKpcjmNbjqDc',
     },
     {
-        'id': 2,
         'name': 'You Want Some?',
         'desc': 'Yongseung`s',
         'thumbnail': 'https://img.youtube.com/vi/blHT6dUxzRc/maxresdefault.jpg',
         'link': 'https://vigloo.onelink.me/SrIM/15000108-0-ko',
     },
-]
+    {
+        'name': 'JUMP BOY LIVE - EP.1-6 (YOUTUBE)',
+        'desc': 'Kangmin`s',
+        'thumbnail': 'https://img.youtube.com/vi/vREYaVW483s/maxresdefault.jpg',
+        'link': 'https://youtu.be/vREYaVW483s?si=OxnUVHQyWiXYvVmD',
+    },
+    {
+        'name': 'JUMP BOY LIVE - FULL (KITZ APP)',
+        'desc': 'Kangmin`s',
+        'thumbnail': 'https://img.youtube.com/vi/vREYaVW483s/maxresdefault.jpg',
+        'link': 'https://kitzofficial.com//content/mlyihhpl',
+    },
+].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const SoloUnit = [
+    {
+        'name': 'JUMP BOY LIVE Script Reading Behind',
+        'thumbnail': 'https://img.youtube.com/vi/xFWnTGjzHSo/maxresdefault.jpg',
+        'link': 'https://youtu.be/xFWnTGjzHSo?si=Y3k_VGJtgJCO9Lgs'
+    },
     {
         'name': 'Chart In & Out EP.4',
         'thumbnail': 'https://img.youtube.com/vi/LCFWB_GbBlA/maxresdefault.jpg',

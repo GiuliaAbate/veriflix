@@ -1,5 +1,11 @@
 export const New = [
     {
+        'name': 'BelBelGo EP.4',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/MJG2g296S-8/maxresdefault.jpg',
+        'link': 'https://youtu.be/MJG2g296S-8?si=QCthFGDIIE6uidms',
+    },
+    {
         'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
         'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
         'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
@@ -19,12 +25,6 @@ export const New = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/XEebJV4tb3M/maxresdefault.jpg',
         'link': 'https://youtu.be/XEebJV4tb3M?si=lfywhX6LmAtWJ6Ok',
-    },
-    {
-        'name': 'Boys 2 Planet Commentary',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/4ZNFxxtRpic/maxresdefault.jpg',
-        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7tTB5h2iSY6OwZANgSO3_sD&si=vBz8yvi40zrWZFWm',
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
@@ -115,6 +115,12 @@ export const Series = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/d0nevsgvouA/maxresdefault.jpg',
         'link': 'https://youtube.com/playlist?list=PLDlie7qJlOneBtcLGibg9AnqCKm_mP5UH&si=7o_qcup3NhJvc3rh',
+    },
+    {
+        'name': 'BelBelGo',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/nxlwM51zO1Y/maxresdefault.jpg',
+        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7vbnhs7yXDRq-BVuTPXYGGo&si=Fd8BXXr7EROjzR7m',
     },
     {
         'name': 'VERIground',

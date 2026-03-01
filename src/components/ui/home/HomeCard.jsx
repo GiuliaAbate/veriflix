@@ -55,6 +55,23 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'BelBelGo EP.4',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/MJG2g296S-8/maxresdefault.jpg',
+            'link': 'https://youtu.be/MJG2g296S-8?si=QCthFGDIIE6uidms',
+        },
+        {
+            'name': 'JUMP BOY LIVE - EP.1-6 YT COMPILATION',
+            'desc': 'Kangmin`s',
+            'thumbnail': 'https://img.youtube.com/vi/vREYaVW483s/maxresdefault.jpg',
+            'link': 'https://youtu.be/vREYaVW483s?si=OxnUVHQyWiXYvVmD',
+        },
+        {
+            'name': 'JUMP BOY LIVE Script Reading Behind',
+            'thumbnail': 'https://img.youtube.com/vi/xFWnTGjzHSo/maxresdefault.jpg',
+            'link': 'https://youtu.be/xFWnTGjzHSo?si=Y3k_VGJtgJCO9Lgs'
+        },
+        {
             'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
             'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
             'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
@@ -63,29 +80,6 @@ function HomeCard() {
             'name': '2026 KANGMIN FANMEETING Recap Video',
             'thumbnail': 'https://img.youtube.com/vi/wQNNe3l4598/maxresdefault.jpg',
             'link': 'https://youtu.be/wQNNe3l4598?si=uAjks7d02NMB76Gu'
-        },
-        {
-            'name': 'Snow Prince ❄️ covered by Kangmin ',
-            'thumbnail': 'https://img.youtube.com/vi/HsCBi6477rE/maxresdefault.jpg',
-            'link': 'https://youtu.be/HsCBi6477rE?si=fkNlebobKeCMw_N-'
-        },
-        {
-            'name': 'Kangmin`s Individual Fanmeeting ',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/TjqhXf3dMcA/maxresdefault.jpg',
-            'link': 'https://www.youtube.com/live/TjqhXf3dMcA?si=MDPh5QQ4Zf65YxR8',
-        },
-        {
-            'name': 'HAPPY KANGMIN DAY',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/125ugyTdTZY/maxresdefault.jpg',
-            'link': 'https://www.youtube.com/live/125ugyTdTZY?si=xPAdFPmyHqfw-10E',
-        },
-        {
-            'name': 'VERIVERY`s 7th Anniversary',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/ZxqmHmRy_Lc/sddefault.jpg',
-            'link': 'https://www.youtube.com/live/ZxqmHmRy_Lc?si=OiF7Tk25D-Tg026z',
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 
