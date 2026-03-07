@@ -55,6 +55,12 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'BelBelGo EP.5',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/FrYFoCBL8LQ/maxresdefault.jpg',
+            'link': 'https://youtu.be/FrYFoCBL8LQ?si=MNhtXPfa3-CSHcjz',
+        },
+        {
             'name': 'BelBelGo EP.4',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/MJG2g296S-8/maxresdefault.jpg',
@@ -75,11 +81,6 @@ function HomeCard() {
             'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
             'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
             'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
-        },
-        {
-            'name': '2026 KANGMIN FANMEETING Recap Video',
-            'thumbnail': 'https://img.youtube.com/vi/wQNNe3l4598/maxresdefault.jpg',
-            'link': 'https://youtu.be/wQNNe3l4598?si=uAjks7d02NMB76Gu'
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 

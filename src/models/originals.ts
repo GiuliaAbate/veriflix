@@ -30,6 +30,12 @@ export const New = [
 
 export const Lives = [
     {
+        'name': 'Joyongz Party Tonight',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/yOFMfLKrfB4/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/yOFMfLKrfB4?si=o__FBBhE_lY7-2ll',
+    },
+    {
         'name': 'Kangmin`s Individual Fanmeeting ',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/TjqhXf3dMcA/maxresdefault.jpg',
