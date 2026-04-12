@@ -27,6 +27,11 @@ function HomeCard() {
 
     const mostPopular = [
         {
+            'name': 'KANGMIN - Free Falling',
+            'thumbnail': 'https://img.youtube.com/vi/VS5tx9LrLo0/maxresdefault.jpg',
+            'link': 'https://youtu.be/VS5tx9LrLo0?si=O7BsL5nBoWEImgcc',
+        },
+        {
             "name": "RED (Beggin')",
             "thumbnail": "https://img.youtube.com/vi/-gzqfjzqG6U/maxresdefault.jpg",
             "link": "https://youtu.be/-gzqfjzqG6U?si=ag1jAX6cX8ViwUGS",
@@ -42,11 +47,6 @@ function HomeCard() {
             'link': 'https://youtube.com/playlist?list=PLDlie7qJlOneBtcLGibg9AnqCKm_mP5UH&si=X_dFj25XCYMeuBmh',
         },
         {
-            'name': 'Crazy Like That',
-            'thumbnail': 'https://img.youtube.com/vi/c46Psa0YiuA/maxresdefault.jpg',
-            'link': 'https://youtu.be/c46Psa0YiuA?si=SSbVp7-r6z9-WS1i',
-        },
-        {
             'name': 'G.B.T.B',
             'thumbnail': 'https://img.youtube.com/vi/iDfFtJcj5x4/maxresdefault.jpg',
             'link': 'https://youtu.be/iDfFtJcj5x4?si=4GAR0n-Neq7ciLQF',
@@ -55,33 +55,33 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'IDOL RADIO EP.211 w/ Kangmin',
+            'thumbnail': 'https://img.youtube.com/vi/_6wV8SJiMY4/maxresdefault.jpg',
+            'link': 'https://www.youtube.com/live/_6wV8SJiMY4?si=nrKXJM_oClQ7825h'
+        },
+        {
+            'name': 'KANGMIN – "in the mirror" LIVE CLIP',
+            'thumbnail': 'https://img.youtube.com/vi/EVZ90UWT8Nc/maxresdefault.jpg',
+            'link': 'https://youtu.be/EVZ90UWT8Nc?si=MnYYud9FQmDpnaS5'
+        },
+        {
+            'name': 'KANGMIN "Free Falling "On the Spot',
+            'desc': 'Kangmin`s',
+            'thumbnail': 'https://img.youtube.com/vi/TY7jq51oED0/maxresdefault.jpg',
+            'link': 'https://youtu.be/TY7jq51oED0?si=t0reVtWueLTYdsWC',
+        },
+        {
+            'name': 'IDOL PUMP KING Episode 2-1 w/ Kangmin',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/n3GF3Wv6AMs/maxresdefault.jpg',
+            'link': 'https://youtu.be/n3GF3Wv6AMs?si=ShsMjjj0ZdeijCKa',
+        },
+        {
             'name': 'BelBelGo EP.5',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/FrYFoCBL8LQ/maxresdefault.jpg',
             'link': 'https://youtu.be/FrYFoCBL8LQ?si=MNhtXPfa3-CSHcjz',
         },
-        {
-            'name': 'BelBelGo EP.4',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/MJG2g296S-8/maxresdefault.jpg',
-            'link': 'https://youtu.be/MJG2g296S-8?si=QCthFGDIIE6uidms',
-        },
-        {
-            'name': 'JUMP BOY LIVE - EP.1-6 YT COMPILATION',
-            'desc': 'Kangmin`s',
-            'thumbnail': 'https://img.youtube.com/vi/vREYaVW483s/maxresdefault.jpg',
-            'link': 'https://youtu.be/vREYaVW483s?si=OxnUVHQyWiXYvVmD',
-        },
-        {
-            'name': 'JUMP BOY LIVE Script Reading Behind',
-            'thumbnail': 'https://img.youtube.com/vi/xFWnTGjzHSo/maxresdefault.jpg',
-            'link': 'https://youtu.be/xFWnTGjzHSo?si=Y3k_VGJtgJCO9Lgs'
-        },
-        {
-            'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
-            'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
-            'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
-        }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 
     return (

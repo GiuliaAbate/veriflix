@@ -30,6 +30,12 @@ export const New = [
 
 export const Lives = [
     {
+        'name': 'Free Falling`s end of promotions',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/gHtI7dRiGAY/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/gHtI7dRiGAY?si=EGfJjVWPRThn5B5k',
+    },
+    {
         'name': 'Joyongz Party Tonight',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/yOFMfLKrfB4/maxresdefault.jpg',

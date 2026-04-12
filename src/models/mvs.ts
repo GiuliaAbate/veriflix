@@ -74,6 +74,11 @@ export const MVs = [
         "thumbnail": "https://img.youtube.com/vi/-gzqfjzqG6U/maxresdefault.jpg",
         "link": "https://youtu.be/-gzqfjzqG6U?si=ag1jAX6cX8ViwUGS",
     },
+    {
+        'title': 'KANGMIN - Free Falling',
+        'thumbnail': 'https://img.youtube.com/vi/VS5tx9LrLo0/maxresdefault.jpg',
+        'link': 'https://youtu.be/VS5tx9LrLo0?si=O7BsL5nBoWEImgcc',
+    },
 ].reverse().map((item, index) => ({ ...item, id: index + 1 }));
 
 export const DIYs = [
