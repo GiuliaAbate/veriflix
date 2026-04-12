@@ -55,6 +55,12 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'IDOL PUMP KING Episode 2-1 w/ Kangmin',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/n3GF3Wv6AMs/maxresdefault.jpg',
+            'link': 'https://youtu.be/n3GF3Wv6AMs?si=ShsMjjj0ZdeijCKa',
+        },
+        {
             'name': 'IDOL RADIO EP.211 w/ Kangmin',
             'thumbnail': 'https://img.youtube.com/vi/_6wV8SJiMY4/maxresdefault.jpg',
             'link': 'https://www.youtube.com/live/_6wV8SJiMY4?si=nrKXJM_oClQ7825h'
@@ -69,12 +75,6 @@ function HomeCard() {
             'desc': 'Kangmin`s',
             'thumbnail': 'https://img.youtube.com/vi/TY7jq51oED0/maxresdefault.jpg',
             'link': 'https://youtu.be/TY7jq51oED0?si=t0reVtWueLTYdsWC',
-        },
-        {
-            'name': 'IDOL PUMP KING Episode 2-1 w/ Kangmin',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/n3GF3Wv6AMs/maxresdefault.jpg',
-            'link': 'https://youtu.be/n3GF3Wv6AMs?si=ShsMjjj0ZdeijCKa',
         },
         {
             'name': 'BelBelGo EP.5',
