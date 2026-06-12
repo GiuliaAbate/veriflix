@@ -137,7 +137,7 @@ function HomeCard() {
                                         >
                                             <div className='thumbnail-wrapper'>
                                                 <img src={video.thumbnail} alt={video.name} />
-                                                <p className='overlay-title veriflix-title'>{video.name}</p>
+                                                <p className='overlay-title veriflix-title' title={video.name}>{video.name}</p>
                                             </div>
                                         </a>
                                     </>
@@ -170,7 +170,7 @@ function HomeCard() {
                                         >
                                             <div className='thumbnail-wrapper'>
                                                 <img src={video.thumbnail} alt={video.name} />
-                                                <div className='overlay-title veriflix-title'>
+                                                <div className='overlay-title veriflix-title' title={video.name}>
                                                     <span>{video.name}</span></div>
                                             </div>
                                         </a>

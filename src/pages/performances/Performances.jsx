@@ -46,7 +46,7 @@ function Performances() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.name} />
-                    <p className='overlay-title content-title'>{v.name}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.name}</p>
                   </div>
                 </a>
               </>
@@ -81,7 +81,7 @@ function Performances() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.name} />
-                    <p className='overlay-title content-title'>{v.name}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.name}</p>
                   </div>
                 </a>
               </>

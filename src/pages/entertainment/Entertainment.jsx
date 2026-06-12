@@ -22,7 +22,7 @@ function Entertainment() {
         <div className="side-nav">
           <h1>Entertainment</h1>
         </div>
-        <p>Check out all the shows featuring VERIVERY, including variety shows, dramas, and radio programs. 
+        <p>Check out all the shows featuring VERIVERY, including variety shows, dramas, and radio programs.
           See the group’s fun side and get to know more about their personalities </p>
       </div >
 
@@ -47,7 +47,7 @@ function Entertainment() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.name} />
-                    <p className='overlay-title content-title'>{v.name}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.name}</p>
                   </div>
                 </a>
               </>
@@ -82,7 +82,7 @@ function Entertainment() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.name} />
-                    <p className='overlay-title content-title'>{v.name}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.name}</p>
                   </div>
                 </a>
               </>
@@ -117,7 +117,7 @@ function Entertainment() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.name} />
-                    <p className='overlay-title content-title'>{v.name}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.name}</p>
                   </div>
                 </a>
               </>
@@ -152,7 +152,7 @@ function Entertainment() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.name} />
-                    <p className='overlay-title content-title'>{v.name}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.name}</p>
                   </div>
                 </a>
               </>

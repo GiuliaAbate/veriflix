@@ -53,7 +53,7 @@ function Originals() {
                   >
                     <div className='thumbnail-wrapper'>
                       <img src={n.thumbnail} alt={n.name} />
-                      <p className='overlay-title content-title'>{n.name}</p>
+                      <p className='overlay-title content-title' title={n.name}>{n.name}</p>
                     </div>
                   </a>
                 </>
@@ -87,7 +87,7 @@ function Originals() {
                   >
                     <div className='thumbnail-wrapper'>
                       <img src={n.thumbnail} alt={n.name} />
-                      <p className='overlay-title content-title'>{n.name}</p>
+                      <p className='overlay-title content-title' title={n.name}>{n.name}</p>
                     </div>
                   </a>
                 </>
@@ -121,7 +121,7 @@ function Originals() {
                   >
                     <div className='thumbnail-wrapper'>
                       <img src={n.thumbnail} alt={n.name} />
-                      <p className='overlay-title content-title'>{n.name}</p>
+                      <p className='overlay-title content-title' title={n.name}>{n.name}</p>
                     </div>
                   </a>
                 </>
@@ -155,7 +155,7 @@ function Originals() {
                   >
                     <div className='thumbnail-wrapper'>
                       <img src={n.thumbnail} alt={n.name} />
-                      <p className='overlay-title content-title'>{n.name}</p>
+                      <p className='overlay-title content-title' title={n.name}>{n.name}</p>
                     </div>
                   </a>
                 </>
@@ -189,7 +189,7 @@ function Originals() {
                   >
                     <div className='thumbnail-wrapper'>
                       <img src={n.thumbnail} alt={n.name} />
-                      <p className='overlay-title content-title'>{n.name}</p>
+                      <p className='overlay-title content-title' title={n.name}>{n.name}</p>
                     </div>
                   </a>
                 </>

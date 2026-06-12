@@ -47,7 +47,7 @@ function MusicVideos() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.title} />
-                    <p className='overlay-title content-title'>{v.title}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.title}</p>
                   </div>
                 </a>
               </>
@@ -82,7 +82,7 @@ function MusicVideos() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.title} />
-                    <p className='overlay-title content-title'>{v.title}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.title}</p>
                   </div>
                 </a>
               </>
@@ -117,7 +117,7 @@ function MusicVideos() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.title} />
-                    <p className='overlay-title content-title'>{v.title}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.title}</p>
                   </div>
                 </a>
               </>
@@ -152,7 +152,7 @@ function MusicVideos() {
                 >
                   <div className='thumbnail-wrapper'>
                     <img src={v.thumbnail} alt={v.title} />
-                    <p className='overlay-title content-title'>{v.title}</p>
+                    <p className='overlay-title content-title' title={v.name}>{v.title}</p>
                   </div>
                 </a>
               </>
