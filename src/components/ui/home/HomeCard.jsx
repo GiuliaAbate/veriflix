@@ -55,33 +55,35 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong Manager`s First Day at Work',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/4O2NvABDJYY/maxresdefault.jpg',
+            'link': 'https://youtu.be/4O2NvABDJYY?si=KErkqizb8zkjCSka',
+        },
+        {
+            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong`s Hand Car Wash',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/20jX_UmFRqM/maxresdefault.jpg',
+            'link': 'https://youtu.be/20jX_UmFRqM?si=N3wIV_xEpqVxPCcN',
+        },
+        {
+            'name': 'KkyuBit Patissier',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/-tuuS-NAeBY/maxresdefault.jpg',
+            'link': 'https://youtu.be/-tuuS-NAeBY?si=J2yQaOH8TlZgn6Y0',
+        },
+        {
+            'name': 'Gyehyeon - Hold On (Justin Bieber)',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/Si50MUeHujA/maxresdefault.jpg',
+            'link': 'https://youtu.be/Si50MUeHujA?si=_8jU6HTkMJlykzzA',
+        },
+        {
             'name': 'IDOL PUMP KING Episode 2-1 w/ Kangmin',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/n3GF3Wv6AMs/maxresdefault.jpg',
             'link': 'https://youtu.be/n3GF3Wv6AMs?si=ShsMjjj0ZdeijCKa',
-        },
-        {
-            'name': 'IDOL RADIO EP.211 w/ Kangmin',
-            'thumbnail': 'https://img.youtube.com/vi/_6wV8SJiMY4/maxresdefault.jpg',
-            'link': 'https://www.youtube.com/live/_6wV8SJiMY4?si=nrKXJM_oClQ7825h'
-        },
-        {
-            'name': 'KANGMIN – "in the mirror" LIVE CLIP',
-            'thumbnail': 'https://img.youtube.com/vi/EVZ90UWT8Nc/maxresdefault.jpg',
-            'link': 'https://youtu.be/EVZ90UWT8Nc?si=MnYYud9FQmDpnaS5'
-        },
-        {
-            'name': 'KANGMIN "Free Falling "On the Spot',
-            'desc': 'Kangmin`s',
-            'thumbnail': 'https://img.youtube.com/vi/TY7jq51oED0/maxresdefault.jpg',
-            'link': 'https://youtu.be/TY7jq51oED0?si=t0reVtWueLTYdsWC',
-        },
-        {
-            'name': 'BelBelGo EP.5',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/FrYFoCBL8LQ/maxresdefault.jpg',
-            'link': 'https://youtu.be/FrYFoCBL8LQ?si=MNhtXPfa3-CSHcjz',
-        },
+        }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 
     return (

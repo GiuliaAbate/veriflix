@@ -1,34 +1,90 @@
 export const New = [
     {
-        'name': 'BelBelGo EP.4',
+        'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong Manager`s First Day at Work',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/MJG2g296S-8/maxresdefault.jpg',
-        'link': 'https://youtu.be/MJG2g296S-8?si=QCthFGDIIE6uidms',
+        'thumbnail': 'https://img.youtube.com/vi/4O2NvABDJYY/maxresdefault.jpg',
+        'link': 'https://youtu.be/4O2NvABDJYY?si=KErkqizb8zkjCSka',
+    },
+    {
+        'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong`s Hand Car Wash',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/20jX_UmFRqM/maxresdefault.jpg',
+        'link': 'https://youtu.be/20jX_UmFRqM?si=N3wIV_xEpqVxPCcN',
+    },
+    {
+        'name': 'KkyuBit Patissier',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/-tuuS-NAeBY/maxresdefault.jpg',
+        'link': 'https://youtu.be/-tuuS-NAeBY?si=J2yQaOH8TlZgn6Y0',
+    },
+    {
+        'name': 'BelBelGo EP.5',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/FrYFoCBL8LQ/maxresdefault.jpg',
+        'link': 'https://youtu.be/FrYFoCBL8LQ?si=MNhtXPfa3-CSHcjz',
     },
     {
         'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
         'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
         'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
-    },
-    {
-        'name': 'Lost & Found | Beep, soul swap incident detected',
-        'thumbnail': 'https://img.youtube.com/vi/O9s0HgfoPy4/maxresdefault.jpg',
-        'link': 'https://youtu.be/O9s0HgfoPy4?si=cCzZzVFDRwrivOd2'
-    },
-    {
-        'name': 'VERIVERY Rewriting Profile',
-        'thumbnail': 'https://img.youtube.com/vi/stNpa5NcuGk/maxresdefault.jpg',
-        'link': 'https://youtu.be/stNpa5NcuGk?si=N8iOxRYwzdFn_PZO'
-    },
-    {
-        'name': 'VERIVERY Past Life Experience',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/XEebJV4tb3M/maxresdefault.jpg',
-        'link': 'https://youtu.be/XEebJV4tb3M?si=lfywhX6LmAtWJ6Ok',
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Lives = [
+    {
+        'name': 'Joyongz Party Tonight',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/2MOJkdEJxXk/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/2MOJkdEJxXk?si=I0MfADYvzeLV87Il',
+    },
+    {
+        'name': 'BelBel Show',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/Nc26XOkDOE8/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/Nc26XOkDOE8?si=ggON5M-EgY0sRosF',
+    },
+    {
+        'name': 'HAPPY YEONHO DAY (pt2)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/PLvspl9HNPU/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/PLvspl9HNPU?si=jFlPAAhjkiGDgbo3',
+    },
+    {
+        'name': 'HAPPY YEONHO DAY (pt1)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/UGnW8FLxtZo/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/UGnW8FLxtZo?si=ftprIkmLiXAxcbQo',
+    },
+    {
+        'name': 'T100% Warm Counseling for Mungdy`s Worries',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/a5f8WGqaUSQ/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/a5f8WGqaUSQ?si=cyktn3j4xYFD_F9H',
+    },
+    {
+        'name': 'HAPPY GYEHYEON DAY (pt3)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/keGl8cDO2PA/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/keGl8cDO2PA?si=T2Rsi7dAI6aJM45X',
+    },
+    {
+        'name': 'HAPPY GYEHYEON DAY (pt2)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/FEolkPswKyQ/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/FEolkPswKyQ?si=gHfsYQqfK2HOyGOz',
+    },
+    {
+        'name': 'HAPPY GYEHYEON DAY (pt1)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/VTpWcGMWBAI/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/VTpWcGMWBAI?si=wjoB7nb4zyAVcZw5',
+    },
+    {
+        'name': 'BelBel Live',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/lkVi7Aq_qV4/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/lkVi7Aq_qV4?si=OUyWDHAZhejh3ZbN',
+    },
     {
         'name': 'Free Falling`s end of promotions',
         'desc': '',

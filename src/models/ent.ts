@@ -185,6 +185,12 @@ export const Dramas = [
 
 export const SoloUnit = [
     {
+        'name': 'I worked out with VERIVERY friends (ONF Wyatt w/Dongheon & Yongseung)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/zbm2ZC4OXKs/maxresdefault.jpg',
+        'link': 'https://youtu.be/zbm2ZC4OXKs?si=Q_Ht7LcEp6VoGkhx',
+    },
+    {
         'name': 'IDOL PUMP KING Episode 2-1 w/ Kangmin',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/n3GF3Wv6AMs/maxresdefault.jpg',
