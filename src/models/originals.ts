@@ -32,6 +32,12 @@ export const New = [
 
 export const Lives = [
     {
+        'name': 'HAPPY YONGSEUNG DAY',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/ag4wMznjYVI/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/ag4wMznjYVI?si=MNZZslyZHerRbYon',
+    },
+    {
         'name': 'Joyongz Party Tonight',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/2MOJkdEJxXk/maxresdefault.jpg',
