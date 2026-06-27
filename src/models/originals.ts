@@ -1,5 +1,11 @@
 export const New = [
     {
+        'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Leaders` Han River Picnic w/ Keita',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/ahz-k30D6TM/maxresdefault.jpg',
+        'link': 'https://youtu.be/ahz-k30D6TM?si=VhCIYVBEvrDcz-ke',
+    },
+    {
         'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong Manager`s First Day at Work',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/4O2NvABDJYY/maxresdefault.jpg',
@@ -22,11 +28,6 @@ export const New = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/FrYFoCBL8LQ/maxresdefault.jpg',
         'link': 'https://youtu.be/FrYFoCBL8LQ?si=MNhtXPfa3-CSHcjz',
-    },
-    {
-        'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
-        'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
-        'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
@@ -230,6 +231,12 @@ export const Series = [
 
 export const MembersOriginals = [
     {
+        'name': 'Heoni`s KkyuKkyu BbangBbang',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/20jX_UmFRqM/maxresdefault.jpg',
+        'link': 'https://youtube.com/playlist?list=PLWLCcSk7ywr0&si=H6bWBUfwAQbaa9wO',
+    },
+    {
         'name': 'Maknae View',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/7aYbI5jMgwI/maxresdefault.jpg',
@@ -264,7 +271,7 @@ export const MembersOriginals = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/Is7bDWkMXXA/maxresdefault.jpg',
         'link': 'https://youtu.be/Is7bDWkMXXA?si=-D9B4nXwlXA9ynOJ',
-    },
+    }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Misc = [

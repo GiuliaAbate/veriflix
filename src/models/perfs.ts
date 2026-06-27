@@ -52,21 +52,31 @@ export const Perfs = [
         'name': 'Snow Prince ❄️ covered by Kangmin ',
         'thumbnail': 'https://img.youtube.com/vi/HsCBi6477rE/maxresdefault.jpg',
         'link': 'https://youtu.be/HsCBi6477rE?si=fkNlebobKeCMw_N-'
+    },
+    {
+        'name': 'Gyehyeon - Hold On (Original: Justin Bieber)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/Si50MUeHujA/maxresdefault.jpg',
+        'link': 'https://youtu.be/Si50MUeHujA?si=_8jU6HTkMJlykzzA',
+    },
+    {
+        'name': 'Yeonho - Butterfly Effect (Original: Shin Seung-hun)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/eNGMZlNvYMM/maxresdefault.jpg',
+        'link': 'https://youtu.be/eNGMZlNvYMM?si=FZ3TnQKYKROZQR8z',
+    },
+    {
+        'name': 'Yeonho - Limit (Original: NELL)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/qIWtTw1LUn8/maxresdefault.jpg',
+        'link': 'https://youtu.be/qIWtTw1LUn8?si=8OpnqXc9x-ptf-eg',
+    },
+    {
+        'name': 'Yeonho - As Much As I`ve Endured',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/eDa-FUfoqfQ/maxresdefault.jpg',
+        'link': 'https://youtu.be/eDa-FUfoqfQ?si=vjvrFPQao2aR8xRI',
     }
-    // {
-    //     'id': 9,
-    //     'name': '[ITTA] Perfomance Cover - Goodbye (Taemin) - Gyehyeon Fancam',
-    //     'desc': '',
-    //     'thumbnail': '',
-    //     'link': 'https://youtu.be/KmFrzgRzq0g?si=KzaeAERYpkBqLCU9',
-    // },
-    // {
-    //     'id': 10,
-    //     'name': '[ITTA] Perfomance Cover - Goodbye (Taemin) - Kangmin Fancam',
-    //     'desc': '',
-    //     'thumbnail': '',
-    //     'link': 'https://youtu.be/sgA74BrXCZI?si=ZdvL2goSDcRJgwIm',
-    // },
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Encores = [

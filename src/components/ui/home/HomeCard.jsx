@@ -55,34 +55,34 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'Yeonho - Butterfly Effect (Original: Shin Seung-hun)',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/eNGMZlNvYMM/maxresdefault.jpg',
+            'link': 'https://youtu.be/eNGMZlNvYMM?si=FZ3TnQKYKROZQR8z',
+        },
+        {
+            'name': 'Yeonho - Limit (Original: NELL)',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/qIWtTw1LUn8/maxresdefault.jpg',
+            'link': 'https://youtu.be/qIWtTw1LUn8?si=8OpnqXc9x-ptf-eg',
+        },
+        {
+            'name': 'Yeonho - As Much As I`ve Endured',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/eDa-FUfoqfQ/maxresdefault.jpg',
+            'link': 'https://youtu.be/eDa-FUfoqfQ?si=vjvrFPQao2aR8xRI',
+        },
+        {
+            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Leaders` Han River Picnic w/ Keita',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/ahz-k30D6TM/maxresdefault.jpg',
+            'link': 'https://youtu.be/ahz-k30D6TM?si=VhCIYVBEvrDcz-ke',
+        },
+        {
             'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong Manager`s First Day at Work',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/4O2NvABDJYY/maxresdefault.jpg',
             'link': 'https://youtu.be/4O2NvABDJYY?si=KErkqizb8zkjCSka',
-        },
-        {
-            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong`s Hand Car Wash',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/20jX_UmFRqM/maxresdefault.jpg',
-            'link': 'https://youtu.be/20jX_UmFRqM?si=N3wIV_xEpqVxPCcN',
-        },
-        {
-            'name': 'KkyuBit Patissier',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/-tuuS-NAeBY/maxresdefault.jpg',
-            'link': 'https://youtu.be/-tuuS-NAeBY?si=J2yQaOH8TlZgn6Y0',
-        },
-        {
-            'name': 'Gyehyeon - Hold On (Justin Bieber)',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/Si50MUeHujA/maxresdefault.jpg',
-            'link': 'https://youtu.be/Si50MUeHujA?si=_8jU6HTkMJlykzzA',
-        },
-        {
-            'name': 'IDOL PUMP KING Episode 2-1 w/ Kangmin',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/n3GF3Wv6AMs/maxresdefault.jpg',
-            'link': 'https://youtu.be/n3GF3Wv6AMs?si=ShsMjjj0ZdeijCKa',
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 
