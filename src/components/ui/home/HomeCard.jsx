@@ -55,6 +55,24 @@ function HomeCard() {
 
     const mostRecent = [
         {
+            'name': 'EP.1 How to beat aliens | Kim Yong-seung`s thrifty new job',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/Pb4Al8dd1FI/maxresdefault.jpg',
+            'link': 'https://youtu.be/Pb4Al8dd1FI?si=U-QbwHT3wET0-uRu',
+        },
+        {
+            'name': 'Heart with 100 key rings | HAPPY YONGSEUNG DAY',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/of-LcOL2EQc/maxresdefault.jpg',
+            'link': 'https://youtu.be/of-LcOL2EQc?si=xG8_4WknzbFziIua',
+        },
+        {
+            'name': 'Heoni`s KkyuKkyu BbangBbang | A stable assistant and an insecure driver ',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/VCZE_cg_OOc/maxresdefault.jpg',
+            'link': 'https://youtu.be/VCZE_cg_OOc?si=w0X3vnKp-ex6hOW6',
+        },
+        {
             'name': 'Yeonho - Butterfly Effect (Original: Shin Seung-hun)',
             'desc': '',
             'thumbnail': 'https://img.youtube.com/vi/eNGMZlNvYMM/maxresdefault.jpg',

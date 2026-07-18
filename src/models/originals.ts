@@ -1,5 +1,23 @@
 export const New = [
     {
+        'name': 'EP.1 How to beat aliens | Kim Yong-seung`s thrifty new job',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/Pb4Al8dd1FI/maxresdefault.jpg',
+        'link': 'https://youtu.be/Pb4Al8dd1FI?si=U-QbwHT3wET0-uRu',
+    },
+    {
+        'name': 'Heart with 100 key rings | HAPPY YONGSEUNG DAY',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/of-LcOL2EQc/maxresdefault.jpg',
+        'link': 'https://youtu.be/of-LcOL2EQc?si=xG8_4WknzbFziIua',
+    },
+    {
+        'name': 'Heoni`s KkyuKkyu BbangBbang | A stable assistant and an insecure driver ',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/VCZE_cg_OOc/maxresdefault.jpg',
+        'link': 'https://youtu.be/VCZE_cg_OOc?si=w0X3vnKp-ex6hOW6',
+    },
+    {
         'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Leaders` Han River Picnic w/ Keita',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/ahz-k30D6TM/maxresdefault.jpg',
@@ -10,28 +28,16 @@ export const New = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/4O2NvABDJYY/maxresdefault.jpg',
         'link': 'https://youtu.be/4O2NvABDJYY?si=KErkqizb8zkjCSka',
-    },
-    {
-        'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong`s Hand Car Wash',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/20jX_UmFRqM/maxresdefault.jpg',
-        'link': 'https://youtu.be/20jX_UmFRqM?si=N3wIV_xEpqVxPCcN',
-    },
-    {
-        'name': 'KkyuBit Patissier',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/-tuuS-NAeBY/maxresdefault.jpg',
-        'link': 'https://youtu.be/-tuuS-NAeBY?si=J2yQaOH8TlZgn6Y0',
-    },
-    {
-        'name': 'BelBelGo EP.5',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/FrYFoCBL8LQ/maxresdefault.jpg',
-        'link': 'https://youtu.be/FrYFoCBL8LQ?si=MNhtXPfa3-CSHcjz',
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Lives = [
+    {
+        'name': 'VERIVERY Live Streaming',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/Psj9kciQP5k/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/Psj9kciQP5k?si=NpIvdRxok7-e7IrK',
+    },
     {
         'name': 'HAPPY YONGSEUNG DAY',
         'desc': '',
@@ -230,6 +236,12 @@ export const Series = [
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const MembersOriginals = [
+    {
+        'name': 'Kim Yong-seung`s thrifty new job',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/Pb4Al8dd1FI/maxresdefault.jpg',
+        'link': 'https://youtube.com/playlist?list=PLVhKjq-Eu2Uc&si=znJGjKbJlE1nxMfC',
+    },
     {
         'name': 'Heoni`s KkyuKkyu BbangBbang',
         'desc': '',
