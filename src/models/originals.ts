@@ -1,37 +1,43 @@
 export const New = [
     {
-        'name': 'EP.1 How to beat aliens | Kim Yong-seung`s thrifty new job',
+        'name': 'Reborn...Did it happen? | Ju-bis diet',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/Pb4Al8dd1FI/maxresdefault.jpg',
-        'link': 'https://youtu.be/Pb4Al8dd1FI?si=U-QbwHT3wET0-uRu',
+        'thumbnail': 'https://img.youtube.com/vi/pwJzX8J5po0/maxresdefault.jpg',
+        'link': 'https://youtu.be/pwJzX8J5po0?si=EVUTatporc-LM51K',
     },
     {
-        'name': 'Heart with 100 key rings | HAPPY YONGSEUNG DAY',
+        'name': 'BelBel Camp EP.2',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/of-LcOL2EQc/maxresdefault.jpg',
-        'link': 'https://youtu.be/of-LcOL2EQc?si=xG8_4WknzbFziIua',
+        'thumbnail': 'https://img.youtube.com/vi/rwxAWbnpxfI/maxresdefault.jpg',
+        'link': 'https://youtu.be/rwxAWbnpxfI?si=quRqXcDL013g0kNX',
     },
     {
-        'name': 'Heoni`s KkyuKkyu BbangBbang | A stable assistant and an insecure driver ',
+        'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Detox car camping',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/VCZE_cg_OOc/maxresdefault.jpg',
-        'link': 'https://youtu.be/VCZE_cg_OOc?si=w0X3vnKp-ex6hOW6',
+        'thumbnail': 'https://img.youtube.com/vi/QtHWCDiVg5I/maxresdefault.jpg',
+        'link': 'https://youtu.be/QtHWCDiVg5I?si=O7Iae4yw6_Vhegs4',
     },
     {
-        'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Leaders` Han River Picnic w/ Keita',
+        'name': 'BelBel Camp EP.1',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/ahz-k30D6TM/maxresdefault.jpg',
-        'link': 'https://youtu.be/ahz-k30D6TM?si=VhCIYVBEvrDcz-ke',
+        'thumbnail': 'https://img.youtube.com/vi/SZXEwsUp4Lw/maxresdefault.jpg',
+        'link': 'https://youtu.be/SZXEwsUp4Lw?si=-WUtdhge0m_3rUtJ',
     },
     {
-        'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong Manager`s First Day at Work',
+        'name': 'EP.2 Whose Side Will the Whale Shark Take? | Kim Yong-seung`s thrifty new job',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/4O2NvABDJYY/maxresdefault.jpg',
-        'link': 'https://youtu.be/4O2NvABDJYY?si=KErkqizb8zkjCSka',
+        'thumbnail': 'https://img.youtube.com/vi/sRMXYV5O6hg/maxresdefault.jpg',
+        'link': 'https://youtu.be/sRMXYV5O6hg?si=ZsAmJ9NMdL0kgnC2',
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Lives = [
+    {
+        'name': 'HAPPY DONGHEON DAY',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/zenXyJTORqs/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/zenXyJTORqs?si=1Pxza6Nt6EOf9bHO',
+    },
     {
         'name': 'VERIVERY Live Streaming',
         'desc': '',
@@ -204,6 +210,12 @@ export const Series = [
         'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7vbnhs7yXDRq-BVuTPXYGGo&si=Fd8BXXr7EROjzR7m',
     },
     {
+        'name': 'BelBel Camp',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/SZXEwsUp4Lw/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/playlist?list=PLEOBoHFrYO8U',
+    },
+    {
         'name': 'VERIground',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/Vk31-A5tPto/maxresdefault.jpg',
@@ -232,7 +244,7 @@ export const Series = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/zI4bZiq7IdI/maxresdefault.jpg',
         'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7vSvCt8G2XSR5sUch9K3aBj&si=wm8SRFt0TOd-FwWO',
-    },
+    }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const MembersOriginals = [

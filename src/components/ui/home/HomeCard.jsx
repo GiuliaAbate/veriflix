@@ -55,52 +55,34 @@ function HomeCard() {
 
     const mostRecent = [
         {
-            'name': 'EP.1 How to beat aliens | Kim Yong-seung`s thrifty new job',
+            'name': 'Reborn...Did it happen? | Ju-bis diet',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/Pb4Al8dd1FI/maxresdefault.jpg',
-            'link': 'https://youtu.be/Pb4Al8dd1FI?si=U-QbwHT3wET0-uRu',
+            'thumbnail': 'https://img.youtube.com/vi/pwJzX8J5po0/maxresdefault.jpg',
+            'link': 'https://youtu.be/pwJzX8J5po0?si=EVUTatporc-LM51K',
         },
         {
-            'name': 'Heart with 100 key rings | HAPPY YONGSEUNG DAY',
+            'name': 'BelBel Camp EP.2',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/of-LcOL2EQc/maxresdefault.jpg',
-            'link': 'https://youtu.be/of-LcOL2EQc?si=xG8_4WknzbFziIua',
+            'thumbnail': 'https://img.youtube.com/vi/rwxAWbnpxfI/maxresdefault.jpg',
+            'link': 'https://youtu.be/rwxAWbnpxfI?si=quRqXcDL013g0kNX',
         },
         {
-            'name': 'Heoni`s KkyuKkyu BbangBbang | A stable assistant and an insecure driver ',
+            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Detox car camping',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/VCZE_cg_OOc/maxresdefault.jpg',
-            'link': 'https://youtu.be/VCZE_cg_OOc?si=w0X3vnKp-ex6hOW6',
+            'thumbnail': 'https://img.youtube.com/vi/QtHWCDiVg5I/maxresdefault.jpg',
+            'link': 'https://youtu.be/QtHWCDiVg5I?si=O7Iae4yw6_Vhegs4',
         },
         {
-            'name': 'Yeonho - Butterfly Effect (Original: Shin Seung-hun)',
+            'name': 'BelBel Camp EP.1',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/eNGMZlNvYMM/maxresdefault.jpg',
-            'link': 'https://youtu.be/eNGMZlNvYMM?si=FZ3TnQKYKROZQR8z',
+            'thumbnail': 'https://img.youtube.com/vi/SZXEwsUp4Lw/maxresdefault.jpg',
+            'link': 'https://youtu.be/SZXEwsUp4Lw?si=-WUtdhge0m_3rUtJ',
         },
         {
-            'name': 'Yeonho - Limit (Original: NELL)',
+            'name': 'EP.2 Whose Side Will the Whale Shark Take? | Kim Yong-seung`s thrifty new job',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/qIWtTw1LUn8/maxresdefault.jpg',
-            'link': 'https://youtu.be/qIWtTw1LUn8?si=8OpnqXc9x-ptf-eg',
-        },
-        {
-            'name': 'Yeonho - As Much As I`ve Endured',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/eDa-FUfoqfQ/maxresdefault.jpg',
-            'link': 'https://youtu.be/eDa-FUfoqfQ?si=vjvrFPQao2aR8xRI',
-        },
-        {
-            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Leaders` Han River Picnic w/ Keita',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/ahz-k30D6TM/maxresdefault.jpg',
-            'link': 'https://youtu.be/ahz-k30D6TM?si=VhCIYVBEvrDcz-ke',
-        },
-        {
-            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Dong Manager`s First Day at Work',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/4O2NvABDJYY/maxresdefault.jpg',
-            'link': 'https://youtu.be/4O2NvABDJYY?si=KErkqizb8zkjCSka',
+            'thumbnail': 'https://img.youtube.com/vi/sRMXYV5O6hg/maxresdefault.jpg',
+            'link': 'https://youtu.be/sRMXYV5O6hg?si=ZsAmJ9NMdL0kgnC2',
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 
