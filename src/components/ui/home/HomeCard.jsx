@@ -55,34 +55,34 @@ function HomeCard() {
 
     const mostRecent = [
         {
-            'name': 'Reborn...Did it happen? | Ju-bis diet',
+            'name': 'Yes. It failed. | Ju-bis diet',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/pwJzX8J5po0/maxresdefault.jpg',
-            'link': 'https://youtu.be/pwJzX8J5po0?si=EVUTatporc-LM51K',
+            'thumbnail': 'https://img.youtube.com/vi/oBQSjy0k-qk/maxresdefault.jpg',
+            'link': 'https://youtu.be/oBQSjy0k-qk',
         },
         {
-            'name': 'BelBel Camp EP.2',
+            'name': 'BelBel Camp EP.4',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/rwxAWbnpxfI/maxresdefault.jpg',
-            'link': 'https://youtu.be/rwxAWbnpxfI?si=quRqXcDL013g0kNX',
+            'thumbnail': 'https://img.youtube.com/vi/dosoBTF7SHg/maxresdefault.jpg',
+            'link': 'https://youtu.be/dosoBTF7SHg',
         },
         {
-            'name': 'Heoni`s KkyuKkyu BbangBbang | Ep. Detox car camping',
+            'name': 'There’s no such thing. Teacher | Ju-bis diet',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/QtHWCDiVg5I/maxresdefault.jpg',
-            'link': 'https://youtu.be/QtHWCDiVg5I?si=O7Iae4yw6_Vhegs4',
+            'thumbnail': 'https://img.youtube.com/vi/qel6on_jglk/maxresdefault.jpg',
+            'link': 'https://youtu.be/qel6on_jglk',
         },
         {
-            'name': 'BelBel Camp EP.1',
+            'name': 'BelBel Camp EP.3',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/SZXEwsUp4Lw/maxresdefault.jpg',
-            'link': 'https://youtu.be/SZXEwsUp4Lw?si=-WUtdhge0m_3rUtJ',
+            'thumbnail': 'https://img.youtube.com/vi/51jw8BmlUaM/maxresdefault.jpg',
+            'link': 'https://youtu.be/51jw8BmlUaM',
         },
         {
-            'name': 'EP.2 Whose Side Will the Whale Shark Take? | Kim Yong-seung`s thrifty new job',
+            'name': 'EP.3 When a mole digs into the ground, should it close its eyes while digging? | Kim Yong-seung`s Smart Budgeting Tips',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/sRMXYV5O6hg/maxresdefault.jpg',
-            'link': 'https://youtu.be/sRMXYV5O6hg?si=ZsAmJ9NMdL0kgnC2',
+            'thumbnail': 'https://img.youtube.com/vi/qDN7nXst-sI/maxresdefault.jpg',
+            'link': 'https://youtu.be/qDN7nXst-sI?si=46hPKLLf6su5or6l',
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 
