@@ -79,6 +79,11 @@ export const MVs = [
         'thumbnail': 'https://img.youtube.com/vi/VS5tx9LrLo0/maxresdefault.jpg',
         'link': 'https://youtu.be/VS5tx9LrLo0?si=O7BsL5nBoWEImgcc',
     },
+    {
+        'name': 'Don`t Panic!',
+        'thumbnail': 'https://img.youtube.com/vi/58qUa2d8erc/maxresdefault.jpg',
+        'link': 'https://youtu.be/58qUa2d8erc',
+    },
 ].reverse().map((item, index) => ({ ...item, id: index + 1 }));
 
 export const DIYs = [

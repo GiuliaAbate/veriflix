@@ -25,6 +25,9 @@ function Discography() {
             <li>Series 'O' Round 3: Whole (Full Album)  - 2022 </li>
             <li>Liminality – EP.Love (Mini Album)  - 2022 </li>
             <li>Liminality – EP.Dream (Mini Album)  - 2023 </li>
+            <li>Lost And Found (Single Album)  - 2025 </li>
+            <li>Free Falling (KANGMIN's Single Album)  - 2026 </li>
+            <li>CONFETTI (Mini Album)  - 2026 </li>
           </ul>
         </div>
       </div>

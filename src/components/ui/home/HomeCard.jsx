@@ -27,6 +27,11 @@ function HomeCard() {
 
     const mostPopular = [
         {
+            'name': 'Don`t Panic!',
+            'thumbnail': 'https://img.youtube.com/vi/58qUa2d8erc/maxresdefault.jpg',
+            'link': 'https://youtu.be/58qUa2d8erc',
+        },
+        {
             'name': 'KANGMIN - Free Falling',
             'thumbnail': 'https://img.youtube.com/vi/VS5tx9LrLo0/maxresdefault.jpg',
             'link': 'https://youtu.be/VS5tx9LrLo0?si=O7BsL5nBoWEImgcc',
@@ -46,43 +51,37 @@ function HomeCard() {
             'thumbnail': 'https://img.youtube.com/vi/d0nevsgvouA/maxresdefault.jpg',
             'link': 'https://youtube.com/playlist?list=PLDlie7qJlOneBtcLGibg9AnqCKm_mP5UH&si=X_dFj25XCYMeuBmh',
         },
-        {
-            'name': 'G.B.T.B',
-            'thumbnail': 'https://img.youtube.com/vi/iDfFtJcj5x4/maxresdefault.jpg',
-            'link': 'https://youtu.be/iDfFtJcj5x4?si=4GAR0n-Neq7ciLQF',
-        },
     ].map((item, index) => ({ ...item, id: index + 1 }));
 
     const mostRecent = [
         {
-            'name': 'Yes. It failed. | Ju-bis diet',
+            'name': 'EP.5 Can You Sneeze with Your Eyes Open? | Kim Yongseung`s Smart Budgeting Tips',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/oBQSjy0k-qk/maxresdefault.jpg',
-            'link': 'https://youtu.be/oBQSjy0k-qk',
+            'thumbnail': 'https://img.youtube.com/vi/jiM21NaWUDc/maxresdefault.jpg',
+            'link': 'https://youtu.be/jiM21NaWUDc',
         },
         {
-            'name': 'BelBel Camp EP.4',
-            'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/dosoBTF7SHg/maxresdefault.jpg',
-            'link': 'https://youtu.be/dosoBTF7SHg',
+            'name': 'Don`t Panic!',
+            'thumbnail': 'https://img.youtube.com/vi/58qUa2d8erc/maxresdefault.jpg',
+            'link': 'https://youtu.be/58qUa2d8erc',
         },
         {
-            'name': 'There’s no such thing. Teacher | Ju-bis diet',
+            'name': 'Don`t let the looks fool you — I`m an idol. | Ju-bis diet',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/qel6on_jglk/maxresdefault.jpg',
-            'link': 'https://youtu.be/qel6on_jglk',
+            'thumbnail': 'https://img.youtube.com/vi/6jBFamq3e9M/maxresdefault.jpg',
+            'link': 'https://youtu.be/6jBFamq3e9M',
         },
         {
-            'name': 'BelBel Camp EP.3',
+            'name': 'BelBel Camp is the final episode, but, Don`t Panic! It`s the beginning | BelBel Camp EP.5',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/51jw8BmlUaM/maxresdefault.jpg',
-            'link': 'https://youtu.be/51jw8BmlUaM',
+            'thumbnail': 'https://img.youtube.com/vi/MRaVmIlozpw/maxresdefault.jpg',
+            'link': 'https://youtu.be/MRaVmIlozpw',
         },
         {
-            'name': 'EP.3 When a mole digs into the ground, should it close its eyes while digging? | Kim Yong-seung`s Smart Budgeting Tips',
+            'name': 'EP. Summer Nighttime Commute Fairy Taxi Service | Heoni`s KkyuKkyu BbangBbang',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/qDN7nXst-sI/maxresdefault.jpg',
-            'link': 'https://youtu.be/qDN7nXst-sI?si=46hPKLLf6su5or6l',
+            'thumbnail': 'https://img.youtube.com/vi/SZ6wn7q4kAM/maxresdefault.jpg',
+            'link': 'https://youtu.be/SZ6wn7q4kAM',
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 

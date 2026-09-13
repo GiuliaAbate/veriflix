@@ -76,7 +76,19 @@ export const Perfs = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/eDa-FUfoqfQ/maxresdefault.jpg',
         'link': 'https://youtu.be/eDa-FUfoqfQ?si=vjvrFPQao2aR8xRI',
-    }
+    },
+    {
+        'name': 'VERIVERY GYEHYEON – DRAMA | 여보세요? Hello? EP.15',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/D7L5KJTlFXI/maxresdefault.jpg',
+        'link': 'https://youtu.be/D7L5KJTlFXI',
+    },
+    {
+        'name': 'VERIVERY GYEHYEON – 그 XX (Original: G-DRAGON) | 여보세요? Hello? EP.15',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/xgXkyI3TKlQ/maxresdefault.jpg',
+        'link': 'https://youtu.be/xgXkyI3TKlQ',
+    },
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Encores = [

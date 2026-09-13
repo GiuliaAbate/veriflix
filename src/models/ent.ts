@@ -185,6 +185,30 @@ export const Dramas = [
 
 export const SoloUnit = [
     {
+        'name': 'VERIVERY Kang Min | Visual Report: Don`t Panic! Kitsch Makeup That Adds to His Charm',
+        'desc': '',
+        'thumbnail': 'https://image.cdn.mnetplus.world/mnetplus/images/2026/09/10/9B17AD69CA6C4E8BB88A32BC87A089B0/CZkNwETR4gzMDNzQ0MkREJEO3IUOEZER0ATMBhjNFNE.png?w=480&q=80',
+        'link': 'https://www.mnetplus.world/media/ko/videos/6aa0dea7284ecc4d1ef27b2a',
+    },
+    {
+        'name': '"Are you an idol? I have two kids though" Jo Hyeryeon meets a 2003-born idol | Worldview Clash',
+        'desc': '',
+        'thumbnail': 'https://image.cdn.mnetplus.world/mnetplus/images/2026/09/09/D778CC07357040809C178094CD165CCC/ElTO4EzN5UUOFNTN0kjMxkTQGhDOCREMGVTMDdTO5ED.png?w=480&q=80',
+        'link': 'https://www.mnetplus.world/media/ko/videos/6aa0e37bb666cf2fb502f499',
+    },
+    {
+        'name': 'VERIVERY Dongheon Kangmin | Upper Body Pumping! Massive Pecs Explosion Workout | 10min Routine ',
+        'desc': '',
+        'thumbnail': 'https://image.cdn.mnetplus.world/mnetplus/images/2026/09/03/7D76034339F64943A8CB88876DBC2EF3/ERzNzADMygTR2MjM0czMGJUNBdTN3YzQCFkRDZTRxME.png?w=480&q=80',
+        'link': 'https://www.mnetplus.world/media/ko/videos/6a94c6874be92a1e6a6e7e40',
+    },
+    {
+        'name': '[You.Ik Ham] Ep 51. The VERIVERY Mobile Support Squad Searching for Benefits (w/ Dongheon, Yongseung, Kangmin)',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/0Fxbu4hP0Rs/maxresdefault.jpg',
+        'link': 'https://youtu.be/0Fxbu4hP0Rs',
+    },
+    {
         'name': 'I worked out with VERIVERY friends (ONF Wyatt w/Dongheon & Yongseung)',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/zbm2ZC4OXKs/maxresdefault.jpg',

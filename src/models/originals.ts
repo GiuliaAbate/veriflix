@@ -1,37 +1,44 @@
 export const New = [
     {
-        'name': 'Yes. It failed. | Ju-bis diet',
+        'name': 'EP.5 Can You Sneeze with Your Eyes Open? | Kim Yongseung`s Smart Budgeting Tips',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/oBQSjy0k-qk/maxresdefault.jpg',
-        'link': 'https://youtu.be/oBQSjy0k-qk',
+        'thumbnail': 'https://img.youtube.com/vi/jiM21NaWUDc/maxresdefault.jpg',
+        'link': 'https://youtu.be/jiM21NaWUDc',
+    },
+
+    {
+        'name': 'Don`t let the looks fool you — I`m an idol. | Ju-bis diet',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/6jBFamq3e9M/maxresdefault.jpg',
+        'link': 'https://youtu.be/6jBFamq3e9M',
     },
     {
-        'name': 'BelBel Camp EP.4',
+        'name': 'BelBel Camp is the final episode, but, Don`t Panic! It`s the beginning | BelBel Camp EP.5',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/dosoBTF7SHg/maxresdefault.jpg',
-        'link': 'https://youtu.be/dosoBTF7SHg',
+        'thumbnail': 'https://img.youtube.com/vi/MRaVmIlozpw/maxresdefault.jpg',
+        'link': 'https://youtu.be/MRaVmIlozpw',
     },
     {
-        'name': 'There’s no such thing. Teacher | Ju-bis diet',
+        'name': 'EP. Summer Nighttime Commute Fairy Taxi Service | Heoni`s KkyuKkyu BbangBbang',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/qel6on_jglk/maxresdefault.jpg',
-        'link': 'https://youtu.be/qel6on_jglk',
+        'thumbnail': 'https://img.youtube.com/vi/SZ6wn7q4kAM/maxresdefault.jpg',
+        'link': 'https://youtu.be/SZ6wn7q4kAM',
     },
     {
-        'name': 'BelBel Camp EP.3',
+        'name': 'Hello. Please join the Zoom meeting via the link below!',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/51jw8BmlUaM/maxresdefault.jpg',
-        'link': 'https://youtu.be/51jw8BmlUaM',
-    },
-    {
-        'name': 'EP.3 When a mole digs into the ground, should it close its eyes while digging? | Kim Yong-seung`s Smart Budgeting Tips',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/qDN7nXst-sI/maxresdefault.jpg',
-        'link': 'https://youtu.be/qDN7nXst-sI?si=46hPKLLf6su5or6l',
+        'thumbnail': 'https://img.youtube.com/vi/8hpBECEiVMk/maxresdefault.jpg',
+        'link': 'https://youtu.be/8hpBECEiVMk',
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 export const Lives = [
+    {
+        'name': 'VERIVERY 8th MINI ALBUM [CONFETTI] COUNTDOWN LIVE',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/KH79IkMVreo/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/live/KH79IkMVreo?si=yd6qPHmwljspr8EJ',
+    },
     {
         'name': 'HAPPY DONGHEON DAY',
         'desc': '',
@@ -213,7 +220,7 @@ export const Series = [
         'name': 'BelBel Camp',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/SZXEwsUp4Lw/maxresdefault.jpg',
-        'link': 'https://www.youtube.com/playlist?list=PLEOBoHFrYO8U',
+        'link': 'https://youtube.com/playlist?list=PLFmitA_uwDKI&si=VRDhpBusPoTqqHDk',
     },
     {
         'name': 'VERIground',
@@ -249,7 +256,13 @@ export const Series = [
 
 export const MembersOriginals = [
     {
-        'name': 'Kim Yong-seung`s thrifty new job',
+        'name': 'Ju-bis diet',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/oBQSjy0k-qk/maxresdefault.jpg',
+        'link': 'https://www.youtube.com/playlist?list=PLZ7vykB4KMTw',
+    },
+    {
+        'name': 'Kim Yongseung`s Smart Budgeting Tips',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/Pb4Al8dd1FI/maxresdefault.jpg',
         'link': 'https://youtube.com/playlist?list=PLVhKjq-Eu2Uc&si=znJGjKbJlE1nxMfC',
@@ -376,6 +389,12 @@ export const Misc = [
         'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
         'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
     },
+    {
+        'name': 'Hello. Please join the Zoom meeting via the link below!',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/8hpBECEiVMk/maxresdefault.jpg',
+        'link': 'https://youtu.be/8hpBECEiVMk',
+    }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
 
