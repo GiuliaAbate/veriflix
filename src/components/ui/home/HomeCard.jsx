@@ -55,33 +55,34 @@ function HomeCard() {
 
     const mostRecent = [
         {
-            'name': 'EP.5 Can You Sneeze with Your Eyes Open? | Kim Yongseung`s Smart Budgeting Tips',
+            'name': 'Touch (Y2K Unit) Dance Practice Video (Moving ver.)',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/jiM21NaWUDc/maxresdefault.jpg',
-            'link': 'https://youtu.be/jiM21NaWUDc',
+            'thumbnail': 'https://img.youtube.com/vi/H5-cz4O-OGk/maxresdefault.jpg',
+            'link': 'https://youtu.be/H5-cz4O-OGk',
         },
         {
-            'name': 'Don`t Panic!',
-            'thumbnail': 'https://img.youtube.com/vi/58qUa2d8erc/maxresdefault.jpg',
-            'link': 'https://youtu.be/58qUa2d8erc',
+            'name': 'EP.8 Is Spiciness Taste or Pain? | Kim Yongseung`s Smart Budgeting Tips',
+            'desc': '',
+            'thumbnail': 'https://img.youtube.com/vi/-XUgF30ffyo/maxresdefault.jpg',
+            'link': 'https://youtu.be/-XUgF30ffyo',
         },
         {
-            'name': 'Don`t let the looks fool you — I`m an idol. | Ju-bis diet',
+            'name': '눈 마주쳤지 (DYG Unit) Dance Practice Video (Moving ver.)',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/6jBFamq3e9M/maxresdefault.jpg',
-            'link': 'https://youtu.be/6jBFamq3e9M',
+            'thumbnail': 'https://img.youtube.com/vi/Gr-xVZVod4Q/maxresdefault.jpg',
+            'link': 'https://youtu.be/Gr-xVZVod4Q',
         },
         {
-            'name': 'BelBel Camp is the final episode, but, Don`t Panic! It`s the beginning | BelBel Camp EP.5',
+            'name': 'DRAMA | 2026 VERIVERY CONCERT `GIVE ME FIVE, KEEP THAT VUBE`',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/MRaVmIlozpw/maxresdefault.jpg',
-            'link': 'https://youtu.be/MRaVmIlozpw',
+            'thumbnail': 'https://img.youtube.com/vi/H5R3geHnNaE/maxresdefault.jpg',
+            'link': 'https://youtu.be/H5R3geHnNaE',
         },
         {
-            'name': 'EP. Summer Nighttime Commute Fairy Taxi Service | Heoni`s KkyuKkyu BbangBbang',
+            'name': 'EP.7 Are Humans Ants or Natural Disasters?  | Kim Yongseung`s Smart Budgeting Tips',
             'desc': '',
-            'thumbnail': 'https://img.youtube.com/vi/SZ6wn7q4kAM/maxresdefault.jpg',
-            'link': 'https://youtu.be/SZ6wn7q4kAM',
+            'thumbnail': 'https://img.youtube.com/vi/5rueadLWAN8/maxresdefault.jpg',
+            'link': 'https://youtu.be/5rueadLWAN8',
         }
     ].map((item, index) => ({ ...item, id: index + 1 }));
 

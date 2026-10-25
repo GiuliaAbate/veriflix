@@ -1,34 +1,33 @@
 export const New = [
     {
-        'name': 'EP.5 Can You Sneeze with Your Eyes Open? | Kim Yongseung`s Smart Budgeting Tips',
+        'name': 'EP.8 Is Spiciness Taste or Pain? | Kim Yongseung`s Smart Budgeting Tips',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/jiM21NaWUDc/maxresdefault.jpg',
-        'link': 'https://youtu.be/jiM21NaWUDc',
-    },
-
-    {
-        'name': 'Don`t let the looks fool you — I`m an idol. | Ju-bis diet',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/6jBFamq3e9M/maxresdefault.jpg',
-        'link': 'https://youtu.be/6jBFamq3e9M',
+        'thumbnail': 'https://img.youtube.com/vi/-XUgF30ffyo/maxresdefault.jpg',
+        'link': 'https://youtu.be/-XUgF30ffyo',
     },
     {
-        'name': 'BelBel Camp is the final episode, but, Don`t Panic! It`s the beginning | BelBel Camp EP.5',
+        'name': 'EP.7 Are Humans Ants or Natural Disasters?  | Kim Yongseung`s Smart Budgeting Tips',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/MRaVmIlozpw/maxresdefault.jpg',
-        'link': 'https://youtu.be/MRaVmIlozpw',
+        'thumbnail': 'https://img.youtube.com/vi/5rueadLWAN8/maxresdefault.jpg',
+        'link': 'https://youtu.be/5rueadLWAN8',
     },
     {
-        'name': 'EP. Summer Nighttime Commute Fairy Taxi Service | Heoni`s KkyuKkyu BbangBbang',
+        'name': '2026 BelBelGo Field Trip 1-9🧡 | BelBelGo EP.6',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/SZ6wn7q4kAM/maxresdefault.jpg',
-        'link': 'https://youtu.be/SZ6wn7q4kAM',
+        'thumbnail': 'https://img.youtube.com/vi/sHBkaLEYA_Y/maxresdefault.jpg',
+        'link': 'https://youtu.be/sHBkaLEYA_Y',
     },
     {
-        'name': 'Hello. Please join the Zoom meeting via the link below!',
+        'name': 'I will take care of Yeonho`s mother.',
         'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/8hpBECEiVMk/maxresdefault.jpg',
-        'link': 'https://youtu.be/8hpBECEiVMk',
+        'thumbnail': 'https://img.youtube.com/vi/1HQ1u5R-hSk/maxresdefault.jpg',
+        'link': 'https://youtu.be/1HQ1u5R-hSk',
+    },
+    {
+        'name': 'EP.6 Steamed Buns vs. Hard Buns | Kim Yongseung`s Smart Budgeting Tips',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/K0nMemPZyiw/maxresdefault.jpg',
+        'link': 'https://youtu.be/K0nMemPZyiw',
     }
 ].map((item, index) => ({ ...item, id: index + 1 }));
 
@@ -313,30 +312,6 @@ export const MembersOriginals = [
 
 export const Misc = [
     {
-        'name': 'Special Moments',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/5MiH8a0vTcY/maxresdefault.jpg',
-        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7u9enaMnjDuDIZFMlQnFHE-&si=v9K546DxaNXzFfc7',
-    },
-    {
-        'name': '2025 New Year`s fortune',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/ABwE8UjnEDs/maxresdefault.jpg',
-        'link': 'https://youtu.be/ABwE8UjnEDs?si=uTnzxITiv7om5iz0',
-    },
-    {
-        'name': 'Playlist',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/ENa4XgzX5gE/maxresdefault.jpg',
-        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7vDGmvpI0HI7hDQi7Jvf12L&si=PLFKUOdCv-9x3KOa',
-    },
-    {
-        'name': 'Happy VERI Christmas',
-        'desc': '',
-        'thumbnail': 'https://img.youtube.com/vi/VoB7kt1Nork/maxresdefault.jpg',
-        'link': 'https://youtu.be/VoB7kt1Nork?si=YYWPirc21RlVV-38',
-    },
-    {
         'name': 'Pajama Party Variety Games',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/shI1hDvfQ0k/maxresdefault.jpg',
@@ -373,6 +348,30 @@ export const Misc = [
         'link': 'https://youtu.be/jLF3I5lIAa8?si=6i5LiIQWzlOx7q7W',
     },
     {
+        'name': 'Special Moments',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/5MiH8a0vTcY/maxresdefault.jpg',
+        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7u9enaMnjDuDIZFMlQnFHE-&si=v9K546DxaNXzFfc7',
+    },
+    {
+        'name': '2025 New Year`s fortune',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/ABwE8UjnEDs/maxresdefault.jpg',
+        'link': 'https://youtu.be/ABwE8UjnEDs?si=uTnzxITiv7om5iz0',
+    },
+    {
+        'name': 'Playlist',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/ENa4XgzX5gE/maxresdefault.jpg',
+        'link': 'https://youtube.com/playlist?list=PLpkuV6RWat7vDGmvpI0HI7hDQi7Jvf12L&si=PLFKUOdCv-9x3KOa',
+    },
+    {
+        'name': 'Happy VERI Christmas',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/VoB7kt1Nork/maxresdefault.jpg',
+        'link': 'https://youtu.be/VoB7kt1Nork?si=YYWPirc21RlVV-38',
+    },
+    {
         'name': 'VERIVERY MBTI Balance Game ep1',
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/X_DkdaXt5fA/maxresdefault.jpg',
@@ -385,7 +384,7 @@ export const Misc = [
         'link': 'https://youtu.be/run2qaO7zeM?si=5u2zb_BTdEdMCkTh',
     },
     {
-        'name': 'VERIVERY 2026 Lunar New Year Special 🐴',
+        'name': 'VERIVERY 2026 Lunar New Year Special',
         'thumbnail': 'https://img.youtube.com/vi/OEJq1huBGf8/maxresdefault.jpg',
         'link': 'https://youtu.be/OEJq1huBGf8?si=u0pGafmNUx99gM4E'
     },
@@ -394,8 +393,20 @@ export const Misc = [
         'desc': '',
         'thumbnail': 'https://img.youtube.com/vi/8hpBECEiVMk/maxresdefault.jpg',
         'link': 'https://youtu.be/8hpBECEiVMk',
+    },
+    {
+        'name': 'Never make this video your meal buddy | VERIVERY X EVNNE 2026 Chuseok Special',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/pabYbSSMv0E/maxresdefault.jpg',
+        'link': 'https://youtu.be/pabYbSSMv0E',
+    },
+    {
+        'name': 'I will take care of Yeonho`s mother.',
+        'desc': '',
+        'thumbnail': 'https://img.youtube.com/vi/1HQ1u5R-hSk/maxresdefault.jpg',
+        'link': 'https://youtu.be/1HQ1u5R-hSk',
     }
-].map((item, index) => ({ ...item, id: index + 1 }));
+].reverse().map((item, index) => ({ ...item, id: index + 1 }));
 
 
 
